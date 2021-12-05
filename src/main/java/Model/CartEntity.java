@@ -52,9 +52,7 @@ public class CartEntity {
 
         if (id != that.id) return false;
         if (userId != that.userId) return false;
-        if (price != null ? !price.equals(that.price) : that.price != null) return false;
-
-        return true;
+        return price != null ? price.equals(that.price) : that.price == null;
     }
 
     @Override

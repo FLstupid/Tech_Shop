@@ -8,5 +8,16 @@
       <jdbc-url>jdbc:mysql://localhost:3306/shoping</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="shoping/Hibernate" uuid="8ff76a57-9c49-4cb0-9a57-1fe48cb5da48">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/HK1-3/CNTT/Tech_Shop/src/main/java/persistence.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/shoping</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

@@ -62,9 +62,7 @@ public class CartItemEntity {
         if (id != that.id) return false;
         if (productId != that.productId) return false;
         if (amount != that.amount) return false;
-        if (cartId != null ? !cartId.equals(that.cartId) : that.cartId != null) return false;
-
-        return true;
+        return cartId != null ? cartId.equals(that.cartId) : that.cartId == null;
     }
 
     @Override

@@ -50,9 +50,7 @@ public class CategoryEntity {
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
-        if (decription != null ? !decription.equals(that.decription) : that.decription != null) return false;
-
-        return true;
+        return decription != null ? decription.equals(that.decription) : that.decription == null;
     }
 
     @Override

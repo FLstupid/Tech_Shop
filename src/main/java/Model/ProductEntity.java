@@ -99,9 +99,7 @@ public class ProductEntity {
         if (picture != null ? !picture.equals(that.picture) : that.picture != null) return false;
         if (price != null ? !price.equals(that.price) : that.price != null) return false;
         if (nsx != null ? !nsx.equals(that.nsx) : that.nsx != null) return false;
-        if (content != null ? !content.equals(that.content) : that.content != null) return false;
-
-        return true;
+        return content != null ? content.equals(that.content) : that.content == null;
     }
 
     @Override

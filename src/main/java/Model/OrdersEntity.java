@@ -99,9 +99,7 @@ public class OrdersEntity {
         if (productCode != null ? !productCode.equals(that.productCode) : that.productCode != null) return false;
         if (createAt != null ? !createAt.equals(that.createAt) : that.createAt != null) return false;
         if (amount != null ? !amount.equals(that.amount) : that.amount != null) return false;
-        if (totalPrice != null ? !totalPrice.equals(that.totalPrice) : that.totalPrice != null) return false;
-
-        return true;
+        return totalPrice != null ? totalPrice.equals(that.totalPrice) : that.totalPrice == null;
     }
 
     @Override

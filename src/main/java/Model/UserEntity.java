@@ -112,9 +112,7 @@ public class UserEntity {
         if (gender != null ? !gender.equals(that.gender) : that.gender != null) return false;
         if (email != null ? !email.equals(that.email) : that.email != null) return false;
         if (phone != null ? !phone.equals(that.phone) : that.phone != null) return false;
-        if (address != null ? !address.equals(that.address) : that.address != null) return false;
-
-        return true;
+        return address != null ? address.equals(that.address) : that.address == null;
     }
 
     @Override
