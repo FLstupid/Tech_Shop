@@ -10,22 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jar_files.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.mail-1.6.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ff76a57-9c49-4cb0-9a57-1fe48cb5da48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8ff76a57-9c49-4cb0-9a57-1fe48cb5da48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/email/EmailVerify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/email/EmailVerifyResetPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/email/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.mail-1.6.2.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15075377" />
     <property name="project.structure.side.proportion" value="0.38270143" />
@@ -97,6 +86,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\java" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="Model" />
     </key>
@@ -207,6 +199,7 @@
       <workItem from="1638674378633" duration="1074000" />
       <workItem from="1638675487900" duration="246000" />
       <workItem from="1638703934122" duration="4213000" />
+      <workItem from="1638708437600" duration="388000" />
     </task>
     <servers />
   </component>
