@@ -18,6 +18,13 @@ public class UserEntity {
     private Collection<CartEntity> cartsById;
     private Collection<OrdersEntity> ordersById;
 
+    public UserEntity(String email, String password) {
+    }
+
+    public UserEntity() {
+
+    }
+
     @Id
     @Column(name = "id")
     public int getId() {
