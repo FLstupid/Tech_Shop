@@ -29,17 +29,12 @@ public class UserIO {
             return id;
         }catch (Exception e){
             transaction.rollback();
+            return 1;
         } finally
         {
             em.close();
         }
-        return 1;
     }
-
-    public static boolean userExist(String email) {
-        return true;
-    }
-
 
     public long getID (UserEntity a)
     {
@@ -74,25 +69,25 @@ public class UserIO {
             em.close();
         }
     }
-//
-//    public static UserEntity selectAcc (String email)
-//    {EntityManager em = emf.createEntityManager();
-//        String query = "SELECT u FROM UserEntity u " +
-//                "WHERE u.email = :email";
-//        try {
-//        } catch (NoResultException e)
-//        {
-//            return null;
-//        }finally {
-//            em.close();
-//        }
-//        return em.;
-//    }
-//    public static boolean userExist(String username)
-//    {
-//        UserEntity u = selectAcc(username);
-//        return u!= null;
-//    }
+
+    public static Object selectAcc (String email)
+    {
+        EntityManager em = emf.createEntityManager();
+        try {
+            return em.createQuery("SELECT q FROM UserEntity q WHERE q.email =?1").setParameter(1,email).getSingleResult();
+        } catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            return null;
+        }finally {
+            em.close();
+        }
+    }
+    public static boolean userExist(String username)
+    {
+        UserEntity u = (UserEntity) selectAcc(username);
+        return u!= null;
+    }
     public static UserEntity getAccountById (long Id){
         EntityManager em = emf.createEntityManager();
         try{

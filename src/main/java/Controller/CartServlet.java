@@ -70,7 +70,7 @@ public class CartServlet extends HttpServlet {
             List<?> listcart = null;
 
             if (cart != null) {
-                listcart = Caa.selectItems(cart.getId());
+                listcart = CartItemIO.selectItems(cart.getId());
             }
             session.setAttribute("listcart", listcart);
             url = "/cart.jsp";
@@ -81,15 +81,15 @@ public class CartServlet extends HttpServlet {
         else if(action.equals("remove")) {
             long itemId = Long.parseLong(request.getParameter("id"));
             long productCode = Long.parseLong(request.getParameter("productCode"));
-            CartItem item = (CartItem) cartItemIO.selectItem(productCode, itemId);
-            cartItemIO.delete(item);
-            Account acc = (Account) session.getAttribute("account");
+            CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
+            CartItemIO.delete(item);
+            UserEntity acc = (UserEntity) session.getAttribute("account");
             long Id = acc.getId();
-            Cart cart = (Cart) cartIO.selectCart(Id);
+            CartEntity cart = (CartEntity) CartIO.selectCart(Id);
             List<?> listcart = null;
 
             if (cart != null) {
-                listcart = cartItemIO.selectItems(cart.getId());
+                listcart = CartItemIO.selectItems(cart.getId());
             }
             session.setAttribute("listcart", listcart);
             url = "/cart.jsp";
