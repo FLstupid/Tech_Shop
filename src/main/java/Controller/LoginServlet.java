@@ -7,12 +7,14 @@ import email.Utility;
 import javax.mail.MessagingException;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+@WebServlet(name = "login", value = "/login*")
 public class LoginServlet extends HttpServlet {
     private String host;
     private String port;
@@ -94,7 +96,7 @@ public class LoginServlet extends HttpServlet {
                 url = "/login.jsp";
             }
             else if (UserIO.userExist(email)) {
-                temp = UserIO.selectAcc(email);
+                temp = (UserEntity) UserIO.selectAcc(email);
                 assert temp != null;
                 if (temp.getPassword().equals(password)) {
                     message = "Đăng nhập thành công";

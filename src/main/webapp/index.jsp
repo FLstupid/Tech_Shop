@@ -1,3 +1,4 @@
+<%--@elvariable id="User" type="Model.UserEntity"--%>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -48,7 +49,13 @@
 					</ul>
 					<ul class="header-links pull-right">
 <%--						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>--%>
-						<li><a href="Login.jsp"><i class="fa fa-user-o"></i> My Account</a></li>
+						<% session = request.getSession(false);
+							if (session == null || session.getAttribute("loggedInUser") == null) {%>
+						<!-- Chưa đăng nhập -->
+						<li><a href="#"><i class="fa fa-user-o"></i>Login-Signup</a></li>
+						<%} else {%>
+						<li><a href="#"><i class="fa fa-user-o"></i>${User.userName}</a></li>
+						<%}%>
 					</ul>
 				</div>
 			</div>
@@ -347,7 +354,6 @@
 				<!-- /row -->
 			</div>
 			<!-- /container -->
-		</div>
 		<!-- /SECTION -->
 
 		<!-- SECTION -->

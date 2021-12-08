@@ -1,7 +1,6 @@
 package email;
 
 import javax.mail.*;
-import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.io.UnsupportedEncodingException;
@@ -13,7 +12,7 @@ public class Utility {
 
     public static boolean sendEmail(String host, String port,
                                     final String email, final String password, String toAddress,
-                                    String subject, String message) throws AddressException,
+                                    String subject, String message) throws
             MessagingException, UnsupportedEncodingException {
 
         // sets SMTP server properties

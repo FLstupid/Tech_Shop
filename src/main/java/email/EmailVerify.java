@@ -1,24 +1,22 @@
 package email;
 
-import Data.accountIO;
-import Model.Account;
+import DAO.UserIO;
+import Model.UserEntity;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.io.IOException;
 
 @WebServlet(name = "Emailverify", value = "/Emailverify")
 public class EmailVerify extends HttpServlet {
 
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         doPost(request,response);
     }
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
         try {
             if (request.getCharacterEncoding() == null) {
                 request.setCharacterEncoding("UTF-8");
@@ -31,13 +29,13 @@ public class EmailVerify extends HttpServlet {
             }
             else if(action.equals("confirm")){
                 HttpSession session = request.getSession();
-                Account user= (Account) session.getAttribute("account");
+                UserEntity user= (UserEntity) session.getAttribute("account");
                 String message;
                 String code = request.getParameter("authcode1");
-                String verifycode = (String)request.getSession().getAttribute("code");;
+                String verifycode = (String)request.getSession().getAttribute("code");
 
                 if(code.equals(verifycode)){
-                    accountIO.insert(user);
+                    UserIO.insert(user);
                     session.setAttribute("account", user);
                     url="/login.jsp";
                 }else{
@@ -49,7 +47,7 @@ public class EmailVerify extends HttpServlet {
 
             getServletContext()
                     .getRequestDispatcher(url).forward(request, response);
-        }catch (Exception e)
+        }catch (Exception ignored)
         {
 
         }
