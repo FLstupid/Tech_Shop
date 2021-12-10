@@ -47,5 +47,6 @@
     <orderEntry type="library" name="JPA 1.0-JPA 1.0" level="project" />
     <orderEntry type="library" name="respond" level="application" />
     <orderEntry type="library" name="html5shiv" level="application" />
+    <orderEntry type="library" name="0958be80bb" level="application" />
   </component>
 </module>

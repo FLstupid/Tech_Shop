@@ -24,6 +24,7 @@
       <root url="jar://$PROJECT_DIR$/lib/txw2-2.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.mail-1.6.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mail-1.4.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

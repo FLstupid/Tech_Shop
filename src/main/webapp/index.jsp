@@ -1,5 +1,5 @@
-<%--@elvariable id="User" type="Model.UserEntity"--%>
-<!DOCTYPE html>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -54,7 +54,7 @@
 						<!-- Chưa đăng nhập -->
 						<li><a href="#"><i class="fa fa-user-o"></i>Login-Signup</a></li>
 						<%} else {%>
-						<li><a href="#"><i class="fa fa-user-o"></i>${User.userName}</a></li>
+						<li><a href="#"><i class="fa fa-user-o"></i>123</a></li>
 						<%}%>
 					</ul>
 				</div>
