@@ -10,114 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/mail-1.4.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tech_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tech_Shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Registration/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Registration/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/verify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ff76a57-9c49-4cb0-9a57-1fe48cb5da48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8ff76a57-9c49-4cb0-9a57-1fe48cb5da48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/Login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Controller/CartServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Controller/CheckOutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Controller/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Controller/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Controller/ProductServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/DAO/CartIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/DAO/CartItemIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/DAO/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/DAO/OrderIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/DAO/ProductIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/DAO/UserIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Model/CartEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Model/CartItemEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Model/CategoryEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Model/OrdersEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Model/ProductEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/Model/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/email/EmailVerify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/email/EmailVerifyResetPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/email/Utility$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/classes/email/Utility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/blank.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/checkout.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/Login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/nouislider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/hotdeal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/login1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/login2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/product09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/shop01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/shop02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/img/shop03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/jquery.zoom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/js/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/product.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/screenshot/Checkout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/screenshot/Index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/screenshot/Product.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/screenshot/Regular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/screenshot/Store.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebBanHang-1.0-SNAPSHOT/store.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/CartServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/CheckOutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/ProductServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/CartIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/CartItemIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/OrderIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/ProductIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/CartEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/CartItemEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/CategoryEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/OrdersEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/ProductEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/email/EmailVerify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/email/EmailVerifyResetPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/email/Utility$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/email/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/email/EmailVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/email/EmailVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/email/EmailVerifyResetPass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/email/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/email/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mail-1.4.7.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jstl-1.2.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15075377" />
     <property name="project.structure.side.proportion" value="0.38270143" />
@@ -190,6 +103,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\lib" />
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\css" />
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\java" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
@@ -307,6 +223,8 @@
       <workItem from="1638963316705" duration="1831000" />
       <workItem from="1639107749853" duration="1225000" />
       <workItem from="1639108991276" duration="216000" />
+      <workItem from="1639109360825" duration="798000" />
+      <workItem from="1639141619707" duration="1190000" />
     </task>
     <servers />
   </component>

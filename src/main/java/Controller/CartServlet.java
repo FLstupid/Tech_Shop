@@ -33,72 +33,58 @@ public class CartServlet extends HttpServlet {
         if (action == null) {
             action = "cart";
         }
-        if (action.equals("cart")) {
-            if (session.getAttribute("account") == null) {
-                url = "/login.jsp";
-                getServletContext()
-                        .getRequestDispatcher(url)
-                        .forward(request, response);
+        switch (action) {
+            case "cart": {
+                if (session.getAttribute("account") == null) {
+                    url = "/login.jsp";
+                    getServletContext()
+                            .getRequestDispatcher(url)
+                            .forward(request, response);
+                }
+                getAccount(request, response, session);
             }
-            UserEntity acc = (UserEntity) session.getAttribute("account");
-            long Id = acc.getId();
-            CartEntity cart = (CartEntity) CartIO.selectCart(Id);
-            List<?> listcart = null;
-            if (cart != null) {
-                listcart = CartItemIO.selectItems(cart.getId());
-            }
-            session.setAttribute("listcart", listcart);
-            url = "/cart.jsp";
-            getServletContext()
-                    .getRequestDispatcher(url)
-                    .forward(request, response);
-        }
-        else  if(action.equals("update")) {
-            long itemId = Long.parseLong(request.getParameter("id"));
-            long productCode = Long.parseLong(request.getParameter("productCode"));
-            int amount = Integer.parseInt(request.getParameter("amount"));
+            case "update": {
+                long itemId = Long.parseLong(request.getParameter("id"));
+                long productCode = Long.parseLong(request.getParameter("productCode"));
+                int amount = Integer.parseInt(request.getParameter("amount"));
 
-            CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
-            if (item != null) {
-                item.setId((int) itemId);
-                item.setAmount((short) amount);
-                CartItemIO.update(item);
+                CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
+                if (item != null) {
+                    item.setId((int) itemId);
+                    item.setAmount((short) amount);
+                    CartItemIO.update(item);
+                }
+                getAccount(request, response, session);
             }
-            UserEntity acc = (UserEntity) session.getAttribute("account");
-            long Id = acc.getId();
-            CartEntity cart = (CartEntity) CartIO.selectCart(Id);
-            List<?> listcart = null;
-
-            if (cart != null) {
-                listcart = CartItemIO.selectItems(cart.getId());
+            case "remove": {
+                long itemId = Long.parseLong(request.getParameter("id"));
+                long productCode = Long.parseLong(request.getParameter("productCode"));
+                CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
+                CartItemIO.delete(item);
+                getAccount(request, response, session);
+                break;
             }
-            session.setAttribute("listcart", listcart);
-            url = "/cart.jsp";
-            getServletContext()
-                    .getRequestDispatcher(url)
-                    .forward(request, response);
-        }
-        else if(action.equals("remove")) {
-            long itemId = Long.parseLong(request.getParameter("id"));
-            long productCode = Long.parseLong(request.getParameter("productCode"));
-            CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
-            CartItemIO.delete(item);
-            UserEntity acc = (UserEntity) session.getAttribute("account");
-            long Id = acc.getId();
-            CartEntity cart = (CartEntity) CartIO.selectCart(Id);
-            List<?> listcart = null;
-
-            if (cart != null) {
-                listcart = CartItemIO.selectItems(cart.getId());
-            }
-            session.setAttribute("listcart", listcart);
-            url = "/cart.jsp";
-            getServletContext()
-                    .getRequestDispatcher(url)
-                    .forward(request, response);
         }
 
     }
+
+    private void getAccount(HttpServletRequest request, HttpServletResponse response, HttpSession session) throws ServletException, IOException {
+        String url;
+        UserEntity acc = (UserEntity) session.getAttribute("account");
+        long Id = acc.getId();
+        CartEntity cart = (CartEntity) CartIO.selectCart(Id);
+        List<?> listcart = null;
+
+        if (cart != null) {
+            listcart = CartItemIO.selectItems(cart.getId());
+        }
+        session.setAttribute("listcart", listcart);
+        url = "/cart.jsp";
+        getServletContext()
+                .getRequestDispatcher(url)
+                .forward(request, response);
+    }
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
