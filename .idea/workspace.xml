@@ -10,33 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-annotations-3.4.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.4.2.Final.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Tech_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tech_Shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CheckOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CheckOutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CategoryIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CartEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CartItemEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/OrdersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/OrdersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +83,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jstl-1.2.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hibernate-annotations-3.4.0.GA.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15075377" />
     <property name="project.structure.side.proportion" value="0.38270143" />
@@ -241,6 +224,7 @@
       <workItem from="1639209206628" duration="860000" />
       <workItem from="1639210206893" duration="10000" />
       <workItem from="1639212953489" duration="3078000" />
+      <workItem from="1639216237288" duration="1402000" />
     </task>
     <servers />
   </component>

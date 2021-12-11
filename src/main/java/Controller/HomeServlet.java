@@ -16,6 +16,10 @@ public class HomeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String url = "/index.jsp";
+        String action = request.getParameter("action");
+        if(action == null){
+            action = "index";
+        }
         if (request.getCharacterEncoding() == null) {
             request.setCharacterEncoding("UTF-8");
         }
