@@ -4,18 +4,22 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
-@Table(name = "cart", schema = "shoping", catalog = "")
 public class CartEntity {
-    private int id;
-    private int userId;
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    private long id;
     private Double price;
+
+    @ManyToOne
     private UserEntity userByUserId;
+
+    @OneToMany(mappedBy = "cartByCartId")
     private Collection<CartItemEntity> cartItemsById;
+
+    @OneToMany(mappedBy = "cartByCartId")
     private Collection<OrdersEntity> ordersById;
 
-    @Id
-    @Column(name = "id")
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -23,18 +27,6 @@ public class CartEntity {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "userId")
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    @Basic
-    @Column(name = "price")
     public Double getPrice() {
         return price;
     }
@@ -51,20 +43,16 @@ public class CartEntity {
         CartEntity that = (CartEntity) o;
 
         if (id != that.id) return false;
-        if (userId != that.userId) return false;
         return price != null ? price.equals(that.price) : that.price == null;
     }
 
     @Override
     public int hashCode() {
-        int result = id;
-        result = 31 * result + userId;
+        long result = id;
         result = 31 * result + (price != null ? price.hashCode() : 0);
-        return result;
+        return (int) result;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "userId", referencedColumnName = "id", nullable = false)
     public UserEntity getUserByUserId() {
         return userByUserId;
     }
@@ -73,7 +61,6 @@ public class CartEntity {
         this.userByUserId = userByUserId;
     }
 
-    @OneToMany(mappedBy = "cartByCartId")
     public Collection<CartItemEntity> getCartItemsById() {
         return cartItemsById;
     }
@@ -82,7 +69,6 @@ public class CartEntity {
         this.cartItemsById = cartItemsById;
     }
 
-    @OneToMany(mappedBy = "cartByCartId")
     public Collection<OrdersEntity> getOrdersById() {
         return ordersById;
     }

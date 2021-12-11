@@ -4,15 +4,16 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
-@Table(name = "category", schema = "shoping", catalog = "")
 public class CategoryEntity {
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
     private String name;
     private String decription;
+
+    @OneToMany(mappedBy = "categoryByCategoryId")
     private Collection<ProductEntity> productsById;
 
-    @Id
-    @Column(name = "id")
     public long getId() {
         return id;
     }
@@ -21,8 +22,6 @@ public class CategoryEntity {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "name")
     public String getName() {
         return name;
     }
@@ -31,8 +30,6 @@ public class CategoryEntity {
         this.name = name;
     }
 
-    @Basic
-    @Column(name = "decription")
     public String getDecription() {
         return decription;
     }
@@ -61,7 +58,6 @@ public class CategoryEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "categoryByCategoryId")
     public Collection<ProductEntity> getProductsById() {
         return productsById;
     }

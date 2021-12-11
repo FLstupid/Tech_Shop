@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ngthi
-  Date: 12/3/2021
-  Time: 10:44 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -18,7 +11,8 @@
 <h2>Welcome to Electronic Device Shop</h2>
 <div class="container" id="container">
     <div class="form-container sign-up-container">
-        <form action="#">
+        <form action="login">
+            <input type="hidden" name="action" value="add">
             <h1>Create Account</h1>
             <div class="social-container">
                 <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -33,7 +27,8 @@
         </form>
     </div>
     <div class="form-container sign-in-container">
-        <form action="#">
+        <form action="login">
+            <input type="hidden" name="action" value="signin">
             <h1>Sign in</h1>
             <div class="social-container">
                 <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -57,7 +52,7 @@
                 <button class="ghost" id="signIn">Sign In</button>
             </div>
             <div class="overlay-panel overlay-right">
-                <a href="index.jsp" class="logo">
+                <a href="${pageContext.request.contextPath}/index" class="logo">
                     <img src="./img/logo1.png" alt="">
                 </a>
                 <h1>Hello, Friend!</h1>

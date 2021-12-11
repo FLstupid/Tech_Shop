@@ -1,6 +1,5 @@
 package DAO;
 
-import Model.CategoryEntity;
 import Model.OrdersEntity;
 
 import javax.persistence.EntityManager;
@@ -10,7 +9,7 @@ import javax.persistence.Persistence;
 import java.util.List;
 
 public class OrderIO {
-    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("dhs");
+    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
 
 
     public void insert (OrdersEntity orderDetail)

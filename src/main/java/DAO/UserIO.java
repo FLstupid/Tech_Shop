@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class UserIO {
-    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("dhs");
+    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
     public UserIO (){
 
     }

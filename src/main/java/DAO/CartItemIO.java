@@ -9,7 +9,7 @@ import javax.persistence.Persistence;
 import java.util.List;
 
 public class CartItemIO {
-    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("dhs");
+    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
     public static void insert(CartItemEntity cartItem)
     {
 

@@ -1,5 +1,8 @@
-
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--@elvariable id="Total" type="java.lang.String"--%>
+<%--@elvariable id="listproduct" type="Model.ProductEntity"--%>
+<%--@elvariable id="numberproduct" type="java.lang.String"--%>
+<%--@elvariable id="user" type="Model.UserEntity"--%>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -52,9 +55,9 @@
 						<% session = request.getSession(false);
 							if (session == null || session.getAttribute("loggedInUser") == null) {%>
 						<!-- Chưa đăng nhập -->
-						<li><a href="#"><i class="fa fa-user-o"></i>Login-Signup</a></li>
+						<li><a href="${pageContext.request.contextPath}/login"><i class="fa fa-user-o"></i>Login-Signup</a></li>
 						<%} else {%>
-						<li><a href="#"><i class="fa fa-user-o"></i>123</a></li>
+						<li><a href="#"><i class="fa fa-user-o"></i>${user.userName}</a></li>
 						<%}%>
 					</ul>
 				</div>
@@ -70,7 +73,7 @@
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="index.jsp" class="logo">
+								<a href="${pageContext.request.contextPath}/index" class="logo">
 									<img src="./img/logo1.png" alt="">
 								</a>
 							</div>
@@ -86,7 +89,7 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-bell"></i>
 										<span>Notification</span>
-										<div class="qty">1</div>
+										<div class="qty">0</div>
 									</a>
 									<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 										<li><a class="dropdown-item" href="#">Welcome to our shop</a></li>
@@ -99,17 +102,22 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Your Cart</span>
-										<div class="qty">3</div>
+										<% session = request.getSession(false);
+											if (session == null || session.getAttribute("loggedInUser") == null) {%>
+										<div class="qty">0</div>
+										<%} else {%>
+										<div class="qty">${numberproduct}</div>
+										<%}%>
 									</a>
 									<div class="cart-dropdown">
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="./img/product01.png" alt="">
+													<img src="${listproduct.picture}" alt="./img/product01.png">
 												</div>
 												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+													<h3 class="product-name"><a href="#">${listproduct.productName}</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$${listproduct.price}</h4>
 												</div>
 												<button class="delete"><i class="fa fa-close"></i></button>
 											</div>
@@ -127,12 +135,12 @@
 
 										</div>
 										<div class="cart-summary">
-											<small>3 Item(s) selected</small>
-											<h5>SUBTOTAL: $2940.00</h5>
+											<small>${numberproduct} Item(s) selected</small>
+											<h5>SUBTOTAL: $${Total}</h5>
 										</div>
 										<div class="cart-btns">
-											<a href="blank.jsp">View Cart</a>
-											<a href="checkout.jsp">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+											<a href="#">View Cart</a>
+											<a href="${pageContext.request.contextPath}/checkout">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>

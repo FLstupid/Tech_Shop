@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 public class ProductIO {
-    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("dhs");
+    public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
     public static void insert(ProductEntity product)
     {
         EntityManager em = emf.createEntityManager();
@@ -59,8 +59,8 @@ public class ProductIO {
     {
         EntityManager em = emf.createEntityManager();
         try {
-            return em.createQuery("SELECT p.id, p.productName as productname," +
-                            " p.categoryByCategoryId.name as decription" +
+            return em.createQuery("SELECT p.productName as productname," +
+                            " p.categoryByCategoryId.name as category" +
                             ",p.price as price ," +
                             "p.content FROM ProductEntity p where p.id =?1").setParameter(1,ID)
                     .getSingleResult();
@@ -92,7 +92,7 @@ public class ProductIO {
         }
     }
 
-    public static List<?> selectListProductByproductname(String ProductName)
+    public static List<?> ListProductByproductname(String ProductName)
     {
         EntityManager em = emf.createEntityManager();
         try {
@@ -109,13 +109,15 @@ public class ProductIO {
             em.close();
         }
     }
-    public static ProductEntity selectProductByid(long idproduct)
+    public static List<?> ListProductByCategory(String Category)
     {
         EntityManager em = emf.createEntityManager();
         try {
-
-            return (ProductEntity) em.createQuery("SELECT p FROM ProductEntity p where p.id =?1").setParameter(1,idproduct).getSingleResult();
-
+            return em.createQuery("SELECT p.productName as productname, " +
+                            "p.content as decription" +
+                            ",p.price as price ,p.id " +
+                            "FROM ProductEntity p where p.categoryByCategoryId.name like ?1").setParameter(1,"%"+ Category+"%")
+                    .getResultList();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());
@@ -123,6 +125,5 @@ public class ProductIO {
         }finally {
             em.close();
         }
-
     }
 }

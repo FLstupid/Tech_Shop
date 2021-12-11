@@ -4,20 +4,21 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
-@Table(name = "orders", schema = "shoping", catalog = "")
 public class OrdersEntity {
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
-    private Integer userId;
-    private Integer cartId;
     private Integer productCode;
     private Timestamp createAt;
     private Integer amount;
     private Double totalPrice;
+
+    @ManyToOne
     private UserEntity userByUserId;
+
+    @ManyToOne
     private CartEntity cartByCartId;
 
-    @Id
-    @Column(name = "id")
     public long getId() {
         return id;
     }
@@ -26,28 +27,6 @@ public class OrdersEntity {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "userId")
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
-    @Basic
-    @Column(name = "cartId")
-    public Integer getCartId() {
-        return cartId;
-    }
-
-    public void setCartId(Integer cartId) {
-        this.cartId = cartId;
-    }
-
-    @Basic
-    @Column(name = "productCode")
     public Integer getProductCode() {
         return productCode;
     }
@@ -56,8 +35,6 @@ public class OrdersEntity {
         this.productCode = productCode;
     }
 
-    @Basic
-    @Column(name = "createAt")
     public Timestamp getCreateAt() {
         return createAt;
     }
@@ -66,8 +43,6 @@ public class OrdersEntity {
         this.createAt = createAt;
     }
 
-    @Basic
-    @Column(name = "amount")
     public Integer getAmount() {
         return amount;
     }
@@ -76,8 +51,6 @@ public class OrdersEntity {
         this.amount = amount;
     }
 
-    @Basic
-    @Column(name = "totalPrice")
     public Double getTotalPrice() {
         return totalPrice;
     }
@@ -94,8 +67,6 @@ public class OrdersEntity {
         OrdersEntity that = (OrdersEntity) o;
 
         if (id != that.id) return false;
-        if (userId != null ? !userId.equals(that.userId) : that.userId != null) return false;
-        if (cartId != null ? !cartId.equals(that.cartId) : that.cartId != null) return false;
         if (productCode != null ? !productCode.equals(that.productCode) : that.productCode != null) return false;
         if (createAt != null ? !createAt.equals(that.createAt) : that.createAt != null) return false;
         if (amount != null ? !amount.equals(that.amount) : that.amount != null) return false;
@@ -105,8 +76,6 @@ public class OrdersEntity {
     @Override
     public int hashCode() {
         int result = (int) (id ^ (id >>> 32));
-        result = 31 * result + (userId != null ? userId.hashCode() : 0);
-        result = 31 * result + (cartId != null ? cartId.hashCode() : 0);
         result = 31 * result + (productCode != null ? productCode.hashCode() : 0);
         result = 31 * result + (createAt != null ? createAt.hashCode() : 0);
         result = 31 * result + (amount != null ? amount.hashCode() : 0);
@@ -114,8 +83,6 @@ public class OrdersEntity {
         return result;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "userId", referencedColumnName = "id")
     public UserEntity getUserByUserId() {
         return userByUserId;
     }
@@ -124,8 +91,6 @@ public class OrdersEntity {
         this.userByUserId = userByUserId;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "cartId", referencedColumnName = "id")
     public CartEntity getCartByCartId() {
         return cartByCartId;
     }

@@ -50,7 +50,6 @@ public class CartServlet extends HttpServlet {
 
                 CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
                 if (item != null) {
-                    item.setId((int) itemId);
                     item.setAmount((short) amount);
                     CartItemIO.update(item);
                 }

@@ -3,11 +3,13 @@ package Model;
 import javax.persistence.*;
 import java.sql.Date;
 import java.util.Collection;
+import java.util.Objects;
 
 @Entity
-@Table(name = "user", schema = "shoping", catalog = "")
 public class UserEntity {
-    private int id;
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    private long id;
     private String userName;
     private String password;
     private Date birth;
@@ -15,19 +17,23 @@ public class UserEntity {
     private String email;
     private String phone;
     private String address;
+
+    @OneToMany(mappedBy = "userByUserId")
     private Collection<CartEntity> cartsById;
+
+    @OneToMany(mappedBy = "userByUserId")
     private Collection<OrdersEntity> ordersById;
 
     public UserEntity(String email, String password) {
+        this.email = email;
+        this.password = password;
     }
 
     public UserEntity() {
 
     }
 
-    @Id
-    @Column(name = "id")
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -35,8 +41,6 @@ public class UserEntity {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "userName")
     public String getUserName() {
         return userName;
     }
@@ -45,8 +49,6 @@ public class UserEntity {
         this.userName = userName;
     }
 
-    @Basic
-    @Column(name = "password")
     public String getPassword() {
         return password;
     }
@@ -55,8 +57,6 @@ public class UserEntity {
         this.password = password;
     }
 
-    @Basic
-    @Column(name = "birth")
     public Date getBirth() {
         return birth;
     }
@@ -65,8 +65,6 @@ public class UserEntity {
         this.birth = birth;
     }
 
-    @Basic
-    @Column(name = "gender")
     public String getGender() {
         return gender;
     }
@@ -75,8 +73,6 @@ public class UserEntity {
         this.gender = gender;
     }
 
-    @Basic
-    @Column(name = "email")
     public String getEmail() {
         return email;
     }
@@ -85,8 +81,6 @@ public class UserEntity {
         this.email = email;
     }
 
-    @Basic
-    @Column(name = "phone")
     public String getPhone() {
         return phone;
     }
@@ -95,8 +89,6 @@ public class UserEntity {
         this.phone = phone;
     }
 
-    @Basic
-    @Column(name = "address")
     public String getAddress() {
         return address;
     }
@@ -113,18 +105,18 @@ public class UserEntity {
         UserEntity that = (UserEntity) o;
 
         if (id != that.id) return false;
-        if (userName != null ? !userName.equals(that.userName) : that.userName != null) return false;
-        if (password != null ? !password.equals(that.password) : that.password != null) return false;
-        if (birth != null ? !birth.equals(that.birth) : that.birth != null) return false;
-        if (gender != null ? !gender.equals(that.gender) : that.gender != null) return false;
-        if (email != null ? !email.equals(that.email) : that.email != null) return false;
-        if (phone != null ? !phone.equals(that.phone) : that.phone != null) return false;
-        return address != null ? address.equals(that.address) : that.address == null;
+        if (!Objects.equals(userName, that.userName)) return false;
+        if (!Objects.equals(password, that.password)) return false;
+        if (!Objects.equals(birth, that.birth)) return false;
+        if (!Objects.equals(gender, that.gender)) return false;
+        if (!Objects.equals(email, that.email)) return false;
+        if (!Objects.equals(phone, that.phone)) return false;
+        return Objects.equals(address, that.address);
     }
 
     @Override
     public int hashCode() {
-        int result = id;
+        long result = id;
         result = 31 * result + (userName != null ? userName.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (birth != null ? birth.hashCode() : 0);
@@ -132,10 +124,9 @@ public class UserEntity {
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (phone != null ? phone.hashCode() : 0);
         result = 31 * result + (address != null ? address.hashCode() : 0);
-        return result;
+        return (int) result;
     }
 
-    @OneToMany(mappedBy = "userByUserId")
     public Collection<CartEntity> getCartsById() {
         return cartsById;
     }
@@ -144,7 +135,6 @@ public class UserEntity {
         this.cartsById = cartsById;
     }
 
-    @OneToMany(mappedBy = "userByUserId")
     public Collection<OrdersEntity> getOrdersById() {
         return ordersById;
     }

@@ -4,20 +4,35 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
-@Table(name = "product", schema = "shoping", catalog = "")
 public class ProductEntity {
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
-    private Long categoryId;
     private String productName;
     private String picture;
     private Double price;
     private String nsx;
     private String content;
+
+    @OneToMany(mappedBy = "productByProductId")
     private Collection<CartItemEntity> cartItemsById;
+
+    @ManyToOne
     private CategoryEntity categoryByCategoryId;
 
-    @Id
-    @Column(name = "id")
+    public ProductEntity() {
+
+    }
+
+    public ProductEntity(String productname, String picture, Double price, String content, String nsx, CategoryEntity s) {
+        this.productName = productname;
+        this.picture = picture;
+        this.price = price;
+        this.content = content;
+        this.nsx = nsx;
+        this.categoryByCategoryId = s;
+    }
+
     public long getId() {
         return id;
     }
@@ -26,18 +41,6 @@ public class ProductEntity {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "categoryId")
-    public Long getCategoryId() {
-        return categoryId;
-    }
-
-    public void setCategoryId(Long categoryId) {
-        this.categoryId = categoryId;
-    }
-
-    @Basic
-    @Column(name = "productName")
     public String getProductName() {
         return productName;
     }
@@ -46,8 +49,6 @@ public class ProductEntity {
         this.productName = productName;
     }
 
-    @Basic
-    @Column(name = "picture")
     public String getPicture() {
         return picture;
     }
@@ -56,8 +57,6 @@ public class ProductEntity {
         this.picture = picture;
     }
 
-    @Basic
-    @Column(name = "price")
     public Double getPrice() {
         return price;
     }
@@ -66,8 +65,6 @@ public class ProductEntity {
         this.price = price;
     }
 
-    @Basic
-    @Column(name = "NSX")
     public String getNsx() {
         return nsx;
     }
@@ -76,8 +73,6 @@ public class ProductEntity {
         this.nsx = nsx;
     }
 
-    @Basic
-    @Column(name = "content")
     public String getContent() {
         return content;
     }
@@ -94,7 +89,6 @@ public class ProductEntity {
         ProductEntity that = (ProductEntity) o;
 
         if (id != that.id) return false;
-        if (categoryId != null ? !categoryId.equals(that.categoryId) : that.categoryId != null) return false;
         if (productName != null ? !productName.equals(that.productName) : that.productName != null) return false;
         if (picture != null ? !picture.equals(that.picture) : that.picture != null) return false;
         if (price != null ? !price.equals(that.price) : that.price != null) return false;
@@ -105,7 +99,6 @@ public class ProductEntity {
     @Override
     public int hashCode() {
         int result = (int) (id ^ (id >>> 32));
-        result = 31 * result + (categoryId != null ? categoryId.hashCode() : 0);
         result = 31 * result + (productName != null ? productName.hashCode() : 0);
         result = 31 * result + (picture != null ? picture.hashCode() : 0);
         result = 31 * result + (price != null ? price.hashCode() : 0);
@@ -114,7 +107,6 @@ public class ProductEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "productByProductId")
     public Collection<CartItemEntity> getCartItemsById() {
         return cartItemsById;
     }
@@ -123,8 +115,6 @@ public class ProductEntity {
         this.cartItemsById = cartItemsById;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "categoryId", referencedColumnName = "id")
     public CategoryEntity getCategoryByCategoryId() {
         return categoryByCategoryId;
     }
