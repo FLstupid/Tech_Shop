@@ -3,13 +3,11 @@ package Model;
 import javax.persistence.*;
 import java.sql.Date;
 import java.util.Collection;
-import java.util.Objects;
 
 @Entity
 public class UserEntity {
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    private long id;
+    private int id;
     private String userName;
     private String password;
     private Date birth;
@@ -25,7 +23,7 @@ public class UserEntity {
     private Collection<OrdersEntity> ordersById;
 
     public UserEntity(String email, String password) {
-        this.email = email;
+        this.email =email;
         this.password = password;
     }
 
@@ -33,7 +31,7 @@ public class UserEntity {
 
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
@@ -105,18 +103,18 @@ public class UserEntity {
         UserEntity that = (UserEntity) o;
 
         if (id != that.id) return false;
-        if (!Objects.equals(userName, that.userName)) return false;
-        if (!Objects.equals(password, that.password)) return false;
-        if (!Objects.equals(birth, that.birth)) return false;
-        if (!Objects.equals(gender, that.gender)) return false;
-        if (!Objects.equals(email, that.email)) return false;
-        if (!Objects.equals(phone, that.phone)) return false;
-        return Objects.equals(address, that.address);
+        if (userName != null ? !userName.equals(that.userName) : that.userName != null) return false;
+        if (password != null ? !password.equals(that.password) : that.password != null) return false;
+        if (birth != null ? !birth.equals(that.birth) : that.birth != null) return false;
+        if (gender != null ? !gender.equals(that.gender) : that.gender != null) return false;
+        if (email != null ? !email.equals(that.email) : that.email != null) return false;
+        if (phone != null ? !phone.equals(that.phone) : that.phone != null) return false;
+        return address != null ? address.equals(that.address) : that.address == null;
     }
 
     @Override
     public int hashCode() {
-        long result = id;
+        int result = id;
         result = 31 * result + (userName != null ? userName.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (birth != null ? birth.hashCode() : 0);
@@ -124,7 +122,7 @@ public class UserEntity {
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (phone != null ? phone.hashCode() : 0);
         result = 31 * result + (address != null ? address.hashCode() : 0);
-        return (int) result;
+        return result;
     }
 
     public Collection<CartEntity> getCartsById() {
@@ -135,6 +133,7 @@ public class UserEntity {
         this.cartsById = cartsById;
     }
 
+    @OneToMany(mappedBy = "userByUserId")
     public Collection<OrdersEntity> getOrdersById() {
         return ordersById;
     }

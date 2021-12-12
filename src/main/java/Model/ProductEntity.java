@@ -6,9 +6,9 @@ import java.util.Collection;
 @Entity
 public class ProductEntity {
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
     private String productName;
+    private Long categoryId;
     private String picture;
     private Double price;
     private String nsx;
@@ -20,17 +20,11 @@ public class ProductEntity {
     @ManyToOne
     private CategoryEntity categoryByCategoryId;
 
-    public ProductEntity() {
-
+    public ProductEntity(String productName, String productimage, Double productprice, String productcontent, String productnsx1, CategoryEntity category) {
     }
 
-    public ProductEntity(String productname, String picture, Double price, String content, String nsx, CategoryEntity s) {
-        this.productName = productname;
-        this.picture = picture;
-        this.price = price;
-        this.content = content;
-        this.nsx = nsx;
-        this.categoryByCategoryId = s;
+    public ProductEntity() {
+
     }
 
     public long getId() {
@@ -47,6 +41,14 @@ public class ProductEntity {
 
     public void setProductName(String productName) {
         this.productName = productName;
+    }
+
+    public Long getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
     }
 
     public String getPicture() {
@@ -90,16 +92,20 @@ public class ProductEntity {
 
         if (id != that.id) return false;
         if (productName != null ? !productName.equals(that.productName) : that.productName != null) return false;
+        if (categoryId != null ? !categoryId.equals(that.categoryId) : that.categoryId != null) return false;
         if (picture != null ? !picture.equals(that.picture) : that.picture != null) return false;
         if (price != null ? !price.equals(that.price) : that.price != null) return false;
         if (nsx != null ? !nsx.equals(that.nsx) : that.nsx != null) return false;
-        return content != null ? content.equals(that.content) : that.content == null;
+        if (content != null ? !content.equals(that.content) : that.content != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
         int result = (int) (id ^ (id >>> 32));
         result = 31 * result + (productName != null ? productName.hashCode() : 0);
+        result = 31 * result + (categoryId != null ? categoryId.hashCode() : 0);
         result = 31 * result + (picture != null ? picture.hashCode() : 0);
         result = 31 * result + (price != null ? price.hashCode() : 0);
         result = 31 * result + (nsx != null ? nsx.hashCode() : 0);

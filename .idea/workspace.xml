@@ -10,16 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-annotations-3.4.0.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.mail-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.11.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Tech_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tech_Shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tech_Shop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Tech_Shop_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CartEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CartItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/OrdersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/OrdersEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +107,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hibernate-annotations-3.4.0.GA.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15075377" />
     <property name="project.structure.side.proportion" value="0.38270143" />
@@ -92,12 +116,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\META-INF" />
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\lib" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\css" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp" />
-      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\java" />
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\java\Model" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\META-INF" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
@@ -225,6 +252,7 @@
       <workItem from="1639210206893" duration="10000" />
       <workItem from="1639212953489" duration="3078000" />
       <workItem from="1639216237288" duration="1402000" />
+      <workItem from="1639301484197" duration="4895000" />
     </task>
     <servers />
   </component>

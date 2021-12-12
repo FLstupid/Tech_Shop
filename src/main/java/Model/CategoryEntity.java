@@ -6,7 +6,6 @@ import java.util.Collection;
 @Entity
 public class CategoryEntity {
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
     private String name;
     private String decription;
@@ -47,7 +46,9 @@ public class CategoryEntity {
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
-        return decription != null ? decription.equals(that.decription) : that.decription == null;
+        if (decription != null ? !decription.equals(that.decription) : that.decription != null) return false;
+
+        return true;
     }
 
     @Override

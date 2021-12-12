@@ -17,6 +17,7 @@
       <root url="jar://$PROJECT_DIR$/lib/activation-1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.4.2.Final.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-annotations-3.4.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/byte-buddy-1.11.22.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

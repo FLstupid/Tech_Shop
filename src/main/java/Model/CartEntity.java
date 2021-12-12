@@ -6,8 +6,8 @@ import java.util.Collection;
 @Entity
 public class CartEntity {
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    private long id;
+    private int id;
+    private int userId;
     private Double price;
 
     @ManyToOne
@@ -19,12 +19,20 @@ public class CartEntity {
     @OneToMany(mappedBy = "cartByCartId")
     private Collection<OrdersEntity> ordersById;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public Double getPrice() {
@@ -43,14 +51,18 @@ public class CartEntity {
         CartEntity that = (CartEntity) o;
 
         if (id != that.id) return false;
-        return price != null ? price.equals(that.price) : that.price == null;
+        if (userId != that.userId) return false;
+        if (price != null ? !price.equals(that.price) : that.price != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
-        long result = id;
+        int result = id;
+        result = 31 * result + userId;
         result = 31 * result + (price != null ? price.hashCode() : 0);
-        return (int) result;
+        return result;
     }
 
     public UserEntity getUserByUserId() {

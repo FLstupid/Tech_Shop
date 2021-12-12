@@ -6,8 +6,9 @@ import java.sql.Timestamp;
 @Entity
 public class OrdersEntity {
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
+    private Integer userId;
+    private Integer cartId;
     private Integer productCode;
     private Timestamp createAt;
     private Integer amount;
@@ -25,6 +26,22 @@ public class OrdersEntity {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Integer getCartId() {
+        return cartId;
+    }
+
+    public void setCartId(Integer cartId) {
+        this.cartId = cartId;
     }
 
     public Integer getProductCode() {
@@ -67,15 +84,21 @@ public class OrdersEntity {
         OrdersEntity that = (OrdersEntity) o;
 
         if (id != that.id) return false;
+        if (userId != null ? !userId.equals(that.userId) : that.userId != null) return false;
+        if (cartId != null ? !cartId.equals(that.cartId) : that.cartId != null) return false;
         if (productCode != null ? !productCode.equals(that.productCode) : that.productCode != null) return false;
         if (createAt != null ? !createAt.equals(that.createAt) : that.createAt != null) return false;
         if (amount != null ? !amount.equals(that.amount) : that.amount != null) return false;
-        return totalPrice != null ? totalPrice.equals(that.totalPrice) : that.totalPrice == null;
+        if (totalPrice != null ? !totalPrice.equals(that.totalPrice) : that.totalPrice != null) return false;
+
+        return true;
     }
 
     @Override
     public int hashCode() {
         int result = (int) (id ^ (id >>> 32));
+        result = 31 * result + (userId != null ? userId.hashCode() : 0);
+        result = 31 * result + (cartId != null ? cartId.hashCode() : 0);
         result = 31 * result + (productCode != null ? productCode.hashCode() : 0);
         result = 31 * result + (createAt != null ? createAt.hashCode() : 0);
         result = 31 * result + (amount != null ? amount.hashCode() : 0);

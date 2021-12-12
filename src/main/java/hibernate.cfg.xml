@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/shoping</property>
+    <property name="connection.driverclass"/>
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <mapping class="Model.CartEntity"/>
+    <mapping class="Model.CartItemEntity"/>
+    <mapping class="Model.CategoryEntity"/>
+    <mapping class="Model.OrdersEntity"/>
+    <mapping class="Model.ProductEntity"/>
+    <mapping class="Model.UserEntity"/>
+    <!--     <property name="connection.username"/>-->
+<!--     <property name="connection.password"/>-->
+
+<!--&lt;!&ndash;     DB schema will be updated if needed &ndash;&gt;-->
+<!--     <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
