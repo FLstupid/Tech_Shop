@@ -1,6 +1,6 @@
 package DAO;
 
-import Model.CartEntity;
+import Model.Cart;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,7 +11,7 @@ public class CartIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
 
 
-    public void insert (CartEntity cart)
+    public void insert (Cart cart)
     { EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         try {
@@ -25,7 +25,7 @@ public class CartIO {
             em.close();
         }
     }
-    public void update (CartEntity cart)
+    public void update (Cart cart)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -40,7 +40,7 @@ public class CartIO {
             em.close();
         }
     }
-    public void delete (CartEntity cart)
+    public void delete (Cart cart)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -59,7 +59,7 @@ public class CartIO {
     {
         EntityManager em = emf.createEntityManager();
         try {
-            return em.createQuery("SELECT p FROM CartEntity p WHERE p.userByUserId.id =?1").setParameter(1,AccountId).getSingleResult();
+            return em.createQuery("SELECT p FROM Cart p WHERE p.userId.id =?1").setParameter(1,AccountId).getSingleResult();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());

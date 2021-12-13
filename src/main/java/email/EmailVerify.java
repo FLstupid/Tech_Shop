@@ -1,7 +1,7 @@
 package email;
 
 import DAO.UserIO;
-import Model.UserEntity;
+import Model.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -31,7 +31,7 @@ public class EmailVerify extends HttpServlet {
             }
             else if(action.equals("confirm")){
                 HttpSession session = request.getSession();
-                UserEntity user= (UserEntity) session.getAttribute("account");
+                User user= (User) session.getAttribute("account");
                 String message;
                 String code = request.getParameter("authcode1");
                 String verifycode = (String)request.getSession().getAttribute("code");;

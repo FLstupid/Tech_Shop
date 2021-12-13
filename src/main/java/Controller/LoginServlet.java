@@ -1,7 +1,7 @@
 package Controller;
 
 import DAO.UserIO;
-import Model.UserEntity;
+import Model.User;
 import email.Utility;
 
 import javax.servlet.ServletContext;
@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
         String action = request.getParameter("action");
         String message = null;
         String t=null;
-        UserEntity temp = null;
+        User temp = null;
         if (action == null) {
             action = "join";  // default action
         }
@@ -72,7 +72,7 @@ public class LoginServlet extends HttpServlet {
 
                     if(test){
                         HttpSession session  = request.getSession();
-                        temp = new UserEntity(email, password);
+                        temp = new User(email, password);
                         session.setAttribute("account", temp);
                         url="/verify.jsp";
                         message = "We already send a verification  code to your email.";
@@ -95,7 +95,7 @@ public class LoginServlet extends HttpServlet {
                 url = "/login.jsp";
             }
             else if (UserIO.userExist(email)) {
-                temp = (UserEntity) UserIO.selectAcc(email);
+                temp = (User) UserIO.selectAcc(email);
                 assert temp != null;
                 if (temp.getPassword().equals(password)) {
                     message = "Đăng nhập thành công";

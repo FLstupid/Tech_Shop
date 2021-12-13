@@ -1,6 +1,6 @@
 package DAO;
 
-import Model.UserEntity;
+import Model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,7 +17,7 @@ public class UserIO {
     public UserIO(HttpServletRequest request, HttpServletResponse response) {
     }
 
-    public static long insert (UserEntity user)
+    public static long insert (User user)
     {    EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         long id;
@@ -36,11 +36,11 @@ public class UserIO {
         }
     }
 
-    public long getID (UserEntity a)
+    public long getID (User a)
     {
         return a.getId();
     }
-    public static void update (UserEntity account)
+    public static void update (User account)
     { EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
 
@@ -56,7 +56,7 @@ public class UserIO {
             em.close();
         }
     }
-    public static void delete (UserEntity account)
+    public static void delete (User account)
     {EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         try {
@@ -74,7 +74,7 @@ public class UserIO {
     {
         EntityManager em = emf.createEntityManager();
         try {
-            return em.createQuery("SELECT q FROM UserEntity q WHERE q.email =?1").setParameter(1,email).getSingleResult();
+            return em.createQuery("SELECT q FROM User q WHERE q.email =?1").setParameter(1,email).getSingleResult();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());
@@ -85,13 +85,13 @@ public class UserIO {
     }
     public static boolean userExist(String username)
     {
-        UserEntity u = (UserEntity) selectAcc(username);
+        User u = (User) selectAcc(username);
         return u!= null;
     }
-    public static UserEntity getAccountById (long Id){
+    public static User getAccountById (long Id){
         EntityManager em = emf.createEntityManager();
         try{
-            return em.find(UserEntity.class, Id);
+            return em.find(User.class, Id);
         }finally {
             em.close();
         }

@@ -1,6 +1,6 @@
 package DAO;
 
-import Model.OrdersEntity;
+import Model.Order;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -12,7 +12,7 @@ public class OrderIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
 
 
-    public void insert (OrdersEntity orderDetail)
+    public void insert (Order orderDetail)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -29,7 +29,7 @@ public class OrderIO {
         }
     }
 
-    public void update (OrdersEntity orderDetail)
+    public void update (Order orderDetail)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -46,7 +46,7 @@ public class OrderIO {
             emf.close();
         }
     }
-    public void delete (OrdersEntity orderDetail)
+    public void delete (Order orderDetail)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -69,7 +69,7 @@ public class OrderIO {
         try {
             return em.createQuery("SELECT p.id as MaDonHang, " +
                     "p.createAt as NgayMua, g.productName as TenSanPham ," +
-                    "p.totalPrice as TongTien, p.userByUserId.phone" + " FROM OrdersEntity p , UserEntity ac, ProductEntity g\n" +
+                    "p.totalPrice as TongTien, p.userId.phone" + " FROM Order p , User ac, Product g\n" +
                     "WHERE g.id=p.id " +
                     "AND  ac.id = ?1").setParameter(1,ID).getResultList();
 

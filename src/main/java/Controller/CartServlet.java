@@ -2,9 +2,9 @@ package Controller;
 
 import DAO.CartIO;
 import DAO.CartItemIO;
-import Model.CartEntity;
-import Model.CartItemEntity;
-import Model.UserEntity;
+import Model.Cart;
+import Model.CartItem;
+import Model.User;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -48,9 +48,9 @@ public class CartServlet extends HttpServlet {
                 long productCode = Long.parseLong(request.getParameter("productCode"));
                 int amount = Integer.parseInt(request.getParameter("amount"));
 
-                CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
+                CartItem item = (CartItem) CartItemIO.selectItem(productCode, itemId);
                 if (item != null) {
-                    item.setAmount((short) amount);
+                    item.setAmount(amount);
                     CartItemIO.update(item);
                 }
                 getAccount(request, response, session);
@@ -58,7 +58,7 @@ public class CartServlet extends HttpServlet {
             case "remove": {
                 long itemId = Long.parseLong(request.getParameter("id"));
                 long productCode = Long.parseLong(request.getParameter("productCode"));
-                CartItemEntity item = (CartItemEntity) CartItemIO.selectItem(productCode, itemId);
+                CartItem item = (CartItem) CartItemIO.selectItem(productCode, itemId);
                 CartItemIO.delete(item);
                 getAccount(request, response, session);
                 break;
@@ -69,9 +69,9 @@ public class CartServlet extends HttpServlet {
 
     private void getAccount(HttpServletRequest request, HttpServletResponse response, HttpSession session) throws ServletException, IOException {
         String url;
-        UserEntity acc = (UserEntity) session.getAttribute("account");
+        User acc = (User) session.getAttribute("account");
         long Id = acc.getId();
-        CartEntity cart = (CartEntity) CartIO.selectCart(Id);
+        Cart cart = (Cart) CartIO.selectCart(Id);
         List<?> listcart = null;
 
         if (cart != null) {

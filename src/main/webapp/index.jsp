@@ -204,7 +204,7 @@
 							</ul>
 							<h2 class="text-uppercase">hot deal this week</h2>
 							<p>New Collection Up to 50% OFF</p>
-							<a class="primary-btn cta-btn" href="#">Buy now</a>
+							<a class="primary-btn cta-btn" href="${pageContext.request.contextPath}/product">Buy now</a>
 						</div>
 					</div>
 				</div>
@@ -227,7 +227,6 @@
 							<h3 class="title">New Products</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-
 								</ul>
 							</div>
 						</div>
@@ -243,9 +242,9 @@
 									<div class="products-slick" data-nav="#slick-nav-1">
                                                                             
 										<!-- product -->
-										<form method="get" action="product.jsp" class="product">
+										<div class="product">
 											<div class="product-img">
-												<!--<img src="./img/product01.png" alt="">-->
+												<img src="./img/product01.png" alt="">
 												<img src="https://drive.google.com/file/d/1A6n_6OEcUDr0gnuIabyoHRytDNpR4pkq/view?usp=sharing" alt="">
 												<div class="product-label">
 													<span class="sale">-30%</span>
@@ -263,7 +262,7 @@
 											<div class="add-to-cart">
 												<button type="submit" class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> add to cart</button>
 											</div>
-										</form>
+										</div>
 										<!-- /product -->
 
 										<!-- product -->

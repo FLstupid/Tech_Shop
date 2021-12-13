@@ -1,6 +1,6 @@
 package DAO;
 
-import Model.CartItemEntity;
+import Model.CartItem;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CartItemIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
-    public static void insert(CartItemEntity cartItem)
+    public static void insert(CartItem cartItem)
     {
 
         EntityManager em = emf.createEntityManager();
@@ -27,7 +27,7 @@ public class CartItemIO {
         }
     }
 
-    public static void update (CartItemEntity cartItem)
+    public static void update (CartItem cartItem)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -42,7 +42,7 @@ public class CartItemIO {
             em.close();
         }
     }
-    public static void delete (CartItemEntity cartItem)
+    public static void delete (CartItem cartItem)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -63,11 +63,11 @@ public class CartItemIO {
         EntityTransaction transaction = em.getTransaction();
         try {
             em.getTransaction().begin();
-            return em.createQuery("SELECT c.amount,c.cartByCartId.id," +
-                    "c.cartByCartId.userByUserId.id," +
-                    "c.productByProductId.productName,c.cartByCartId.price," +
-                    "c.productByProductId.id FROM" +
-                    " CartItemEntity c WHERE c.cartByCartId.id =?1").setParameter(1,cartId).getResultList();
+            return em.createQuery("SELECT c.amount,c.cartId.id," +
+                    "c.cartId.userId.id," +
+                    "c.productId.productName,c.cartId.price," +
+                    "c.productId.id FROM" +
+                    " CartItem c WHERE c.cartId.id =?1").setParameter(1,cartId).getResultList();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());
@@ -85,7 +85,7 @@ public class CartItemIO {
         EntityTransaction transaction = em.getTransaction();
         try {
             em.getTransaction().begin();
-            return em.createQuery("SELECT q FROM CartItemEntity q WHERE q.productByProductId.id =?1 AND q.id =?2").setParameter(1,productCode).setParameter(2,id).getSingleResult();
+            return em.createQuery("SELECT q FROM CartItem q WHERE q.productId.id =?1 AND q.id =?2").setParameter(1,productCode).setParameter(2,id).getSingleResult();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());
@@ -102,7 +102,7 @@ public class CartItemIO {
         EntityTransaction transaction = em.getTransaction();
         try {
             em.getTransaction().begin();
-            return em.createQuery("SELECT q FROM CartItemEntity q WHERE q.productByProductId.id =?1 AND q.cartByCartId.id =?2").setParameter(1,productCode).setParameter(2,id).getSingleResult();
+            return em.createQuery("SELECT q FROM CartItem q WHERE q.productId.id =?1 AND q.cartId.id =?2").setParameter(1,productCode).setParameter(2,id).getSingleResult();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());
@@ -119,7 +119,7 @@ public class CartItemIO {
         EntityTransaction transaction = em.getTransaction();
         try {
             em.getTransaction().begin();
-            return (int) em.createQuery("SELECT COUNT(q) FROM CartItemEntity q WHERE q.productByProductId.id =?1").setParameter(1,id).getSingleResult();
+            return (int) em.createQuery("SELECT COUNT(q) FROM CartItem q WHERE q.productId.id =?1").setParameter(1,id).getSingleResult();
         } catch (Exception e)
         {
             System.out.println(e.getMessage());

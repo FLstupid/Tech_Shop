@@ -1,6 +1,6 @@
 package DAO;
 
-import Model.CategoryEntity;
+import Model.Category;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -13,7 +13,7 @@ public class CategoryIO {
     public static Object SelectCategoryByName(String categoryname) {
         EntityManager em = emf.createEntityManager();
         try {
-            return em.createQuery("select q from CategoryEntity q where q.name = ?1").setParameter(1,categoryname).getSingleResult();
+            return em.createQuery("select q from Category q where q.name = ?1").setParameter(1,categoryname).getSingleResult();
         }
         catch (Exception e){
             System.out.println(e.getMessage());
@@ -24,7 +24,7 @@ public class CategoryIO {
         }
     }
 
-    public void insert (CategoryEntity category)
+    public void insert (Category category)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -40,7 +40,7 @@ public class CategoryIO {
         }
     }
 
-    public void update (CategoryEntity category)
+    public void update (Category category)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -56,7 +56,7 @@ public class CategoryIO {
             em.close();
         }
     }
-    public void delete (CategoryEntity category)
+    public void delete (Category category)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();

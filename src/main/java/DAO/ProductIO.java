@@ -1,13 +1,13 @@
 package DAO;
 
-import Model.ProductEntity;
+import Model.Product;
 
 import javax.persistence.*;
 import java.util.List;
 
 public class ProductIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
-    public static void insert(ProductEntity product)
+    public static void insert(Product product)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -23,7 +23,7 @@ public class ProductIO {
         }
     }
 
-    public void update (ProductEntity product)
+    public void update (Product product)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -39,7 +39,7 @@ public class ProductIO {
             em.close();
         }
     }
-    public void delete (ProductEntity product)
+    public void delete (Product product)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
@@ -60,9 +60,9 @@ public class ProductIO {
         EntityManager em = emf.createEntityManager();
         try {
             return em.createQuery("SELECT p.productName as productname," +
-                            " p.categoryByCategoryId.name as category" +
+                            " p.categoryId.name as category" +
                             ",p.price as price ," +
-                            "p.content FROM ProductEntity p where p.id =?1").setParameter(1,ID)
+                            "p.content FROM Product p where p.id =?1").setParameter(1,ID)
                     .getSingleResult();
         } catch (Exception e)
         {
@@ -81,7 +81,7 @@ public class ProductIO {
             return em.createQuery("SELECT p.productName as productname, " +
                             "p.content as decription" +
                             ",p.price as price ,p.id, p.picture " +
-                            "FROM ProductEntity p")
+                            "FROM Product p")
                     .getResultList();
         } catch (Exception e)
         {
@@ -99,7 +99,7 @@ public class ProductIO {
             return em.createQuery("SELECT p.productName as productname, " +
                             "p.content as decription" +
                             ",p.price as price ,p.id " +
-                            "FROM ProductEntity p where p.productName like ?1").setParameter(1,"%"+ ProductName+"%")
+                            "FROM Product p where p.productName like ?1").setParameter(1,"%"+ ProductName+"%")
                     .getResultList();
         } catch (Exception e)
         {
@@ -116,7 +116,7 @@ public class ProductIO {
             return em.createQuery("SELECT p.productName as productname, " +
                             "p.content as decription" +
                             ",p.price as price ,p.id " +
-                            "FROM ProductEntity p where p.categoryByCategoryId.name like ?1").setParameter(1,"%"+ Category+"%")
+                            "FROM Product p where p.categoryId.name like ?1").setParameter(1,"%"+ Category+"%")
                     .getResultList();
         } catch (Exception e)
         {

@@ -2,8 +2,8 @@ package Controller;
 
 import DAO.CategoryIO;
 import DAO.ProductIO;
-import Model.CategoryEntity;
-import Model.ProductEntity;
+import Model.Category;
+import Model.Product;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -37,8 +37,8 @@ public class ProductServlet extends HttpServlet {
             Double productprice = Double.parseDouble(productprice1);
             String categoryname = request.getParameter("categoryname");
             Object category = CategoryIO.SelectCategoryByName(categoryname);
-            ProductEntity p = new ProductEntity(productName,productimage,productprice,productcontent,
-                    productnsx1, (CategoryEntity) category);
+            Product p = new Product(productName,productimage,productprice,productcontent,
+                    productnsx1, (Category) category);
             ProductIO.insert(p);
         }
         getServletContext()
