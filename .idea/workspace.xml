@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Tech_Shop:war" />
+      <artifact name="Tech_Shop:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,762 +10,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.11.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jandex-2.2.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.27.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_id_tmm_http_constants_http_constants_argonaut_2_12_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_id_tmm_http_constants_http_constants_argonaut_2_13_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_id_tmm_http_constants_http_constants_circe_2_12_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_id_tmm_http_constants_http_constants_circe_2_13_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_id_tmm_http_constants_http_constants_core_2_12_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__au_id_tmm_http_constants_http_constants_core_2_13_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_cloudinary_cloudinary_core_1_29_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_cloudinary_cloudinary_http44_1_29_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hp_hpl_jena_iri_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hp_hpl_jena_jena_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_restfb_restfb_3_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_all_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_argonaut_argonaut_2_12_6_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_argonaut_argonaut_2_13_6_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_circe_circe_core_2_12_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_circe_circe_core_2_13_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_circe_circe_numbers_2_12_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_circe_circe_numbers_2_13_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_cats_core_2_12_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_cats_core_2_13_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_cats_kernel_2_12_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_cats_kernel_2_13_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_cats_macros_2_12_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_cats_macros_2_13_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jboss_logging_spi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-spi-2.0.2.GA.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Tech_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tech_Shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1f0f32e-7614-4d04-915a-8d28b482d53d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tech_Shop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Tech_Shop_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_5_8_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-annotations-3.4.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-core-5.4.10.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/CHANGES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/INFO_BIN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/INFO_SRC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/java/documentation/ErrorMappingsDocGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/java/documentation/PropertiesDocGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/java/instrumentation/AddMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/java/instrumentation/CommonChecks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/java/instrumentation/TranslateExceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/Product.wxs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/changelog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/compat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/control" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/copyright" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/source/format" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/debian.in/watch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/build/misc/rpm.spec.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/demo/java/demo/x/devapi/DevApiSample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/Mysqlx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxCrud.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxCursor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxDatatypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxExpect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxExpr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxNotice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxPrepare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxResultset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/MysqlxSql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/generated/java/com/mysql/cj/x/protobuf/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/legacy/java/com/mysql/jdbc/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/legacy/java/com/mysql/jdbc/SocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/legacy/java/com/mysql/jdbc/SocketFactoryWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/AppendingBatchVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/BatchVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/BindValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/CacheAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/CacheAdapterFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/CancelQueryTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/CharsetMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/CharsetSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/DataStoreMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/MessageBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/Messages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/MysqlConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/MysqlType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/ParseInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/PerConnectionLRUFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/PingTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/PreparedQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/Query.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/QueryAttributesBindValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/QueryAttributesBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/QueryBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/QueryResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/ServerVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/Session.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/TransactionEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/WarningListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/callback/MysqlCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/callback/MysqlCallbackHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/callback/UsernameCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/ConnectionPropertiesTransform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrlParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/DatabaseUrlContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/HostInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/HostsListView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/PropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/PropertyDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/PropertyKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/PropertySet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/conf/RuntimeProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/AssertionFailedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/CJCommunicationsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/CJConnectionFeatureNotAvailableException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/CJException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/CJOperationNotSupportedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/CJPacketTooBigException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/CJTimeoutException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/ClosedOnExpiredPasswordException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/ConnectionIsClosedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/DataConversionException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/DataReadException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/DataTruncationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/DeadlockTimeoutRollbackMarker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/ExceptionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/ExceptionInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/ExceptionInterceptorChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/FeatureNotAvailableException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/InvalidConnectionAttributeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/MysqlErrorNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/NumberOutOfRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/OperationCancelledException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/PasswordExpiredException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/PropertyNotModifiableException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/RSAException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/SSLParamsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/StatementIsClosedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/StreamingNotifiable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/UnableToConnectException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/UnsupportedConnectionStringException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/exceptions/WrongArgumentException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/interceptors/QueryInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/Jdk14Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/Log.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/NullLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/ProfilerEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/ProfilerEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/Slf4JLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/log/StandardLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/AuthenticationPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/AuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ColumnDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/FullReadInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/InternalDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/InternalTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/InternalTimestamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/MessageHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/MessageListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/MessageReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/MessageSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/NetworkResources.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/OutputStreamWatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/PacketReceivedTimeHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/PacketSentTimeHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/Protocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ProtocolEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ProtocolEntityFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ProtocolEntityReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ResultStreamer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/Resultset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ResultsetRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ResultsetRows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ResultsetRowsOwner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ServerCapabilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ServerSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ServerSessionStateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/SocketConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/SocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/SocketMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/ValueDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/Warning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/protocol/WatchableStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/result/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/result/Row.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/result/RowList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/result/ValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/Base64Decoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/DataTypeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/DnsSrv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/EscapeTokenizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/LazyString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/LogUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/PerVmServerConfigCacheFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/SaslPrep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/SequentialIdLease.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/StringUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/TestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/TimeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-api/java/com/mysql/cj/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/AbstractPreparedQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/AbstractQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/AbstractQueryBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/CancelQueryTaskImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ClientPreparedQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ClientPreparedQueryBindValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ClientPreparedQueryBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/CoreSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/DataStoreMetadataImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/LicenseConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/MysqlxSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/NativeCharsetSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/NativeQueryAttributesBindValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/NativeQueryAttributesBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/NativeSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/NoSubInterceptorWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ServerPreparedQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ServerPreparedQueryBindValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ServerPreparedQueryBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/ServerPreparedQueryTestcaseGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/SimpleQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/admin/ServerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/AbstractPropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/AbstractRuntimeProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/BooleanProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/BooleanPropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/DefaultPropertySet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/EnumProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/EnumPropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/IntegerProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/IntegerPropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/LongProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/LongPropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/MemorySizeProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/MemorySizePropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/StringProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/StringPropertyDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/FailoverConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/FailoverDnsSrvConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/LoadBalanceConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/LoadBalanceDnsSrvConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/ReplicationConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/ReplicationDnsSrvConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/SingleConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/XDevApiConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/conf/url/XDevApiDnsSrvConnectionUrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/log/BaseMetricsHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/log/LogFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/log/LoggingProfilerEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/log/ProfilerEventImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/AbstractProtocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/AbstractSocketConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/ExportControlled.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/NamedPipeSocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/ReadAheadInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/Security.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/SocksProxySocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/StandardSocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/WatchableOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/WatchableWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/WriterWatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/protocol/result/AbstractResultsetRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/AbstractDateTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/AbstractNumericValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/BigDecimalValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/BinaryStreamValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/BooleanValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/BufferedRowList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/ByteValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/DefaultColumnDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/DefaultValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/DoubleValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/DurationValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/FloatValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/IntegerValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/LocalDateTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/LocalDateValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/LocalTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/LongValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/OffsetDateTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/OffsetTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/ShortValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/SqlDateValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/SqlTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/SqlTimestampValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/StringValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/UtilCalendarValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/result/ZonedDateTimeValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/sasl/ScramSha1SaslClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/sasl/ScramSha256SaslClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/sasl/ScramShaSaslClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/sasl/ScramShaSaslClientFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/core-impl/java/com/mysql/cj/sasl/ScramShaSaslProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/doc/connector-j-overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/doc/mysqlx-overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/AbstractRowFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/BinaryResultsetReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/BinaryRowFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ColumnDefinitionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ColumnDefinitionReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/CompressedInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/CompressedPacketSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/DebugBufferingPacketReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/DebugBufferingPacketSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MergingColumnDefinitionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MultiPacketReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MysqlBinaryValueDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MysqlTextValueDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeCapabilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeMessageBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativePacketHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativePacketPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeProtocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeServerSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeServerSessionStateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeSocketConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/PacketSplitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ResultsetFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ResultsetRowReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/SimplePacketReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/SimplePacketSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TextResultsetReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TextRowFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TimeTrackingPacketReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TimeTrackingPacketSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TracingPacketReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TracingPacketSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ValueEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/AuthenticationKerberosClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/AuthenticationLdapSaslClientPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/CachingSha2PasswordPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/MysqlClearPasswordPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/MysqlNativePasswordPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/MysqlOldPasswordPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/Sha256PasswordPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/AbstractBufferRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/AbstractResultsetRows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/BinaryBufferRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ByteArrayRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/NativeResultset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/OkPacket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ResultsetRowsCursor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ResultsetRowsStatic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ResultsetRowsStreaming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/TextBufferRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/CompressionAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/CompressionMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/CompressionSplittedInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/CompressionSplittedOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/CompressorStreamsFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ConfinedInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ContinuousInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ContinuousOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ErrorToFutureCompletionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/FetchDoneEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/FetchDoneEntityFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/FetchDoneMoreResults.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/FetchDoneMoreResultsFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/FieldFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/MessageConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/Notice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/NoticeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/Ok.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/OkBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/OkFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ResultMessageListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ReusableOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/StatementExecuteOk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/StatementExecuteOkBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/StatementExecuteOkFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/SyncFlushDeflaterOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/SyncMessageReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/SyncMessageSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRowFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRowInputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerCapabilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XpluginStatementCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/LocalizedErrorMessages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/TlsSettings.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/3-0-Compat.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/clusterBase.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/coldFusion.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/fullDebug.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/maxPerformance-8-0.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/maxPerformance.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/configurations/solarisMaxPerformance.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/resources/com/mysql/cj/util/TimeZoneMapping.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/ClientInfoProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/JdbcConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/JdbcPreparedStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/JdbcPropertySet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/JdbcStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/ParameterBindings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/ha/BalanceStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/ha/LoadBalanceExceptionChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/ha/LoadBalancedConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/ha/ReplicationConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/interceptors/ConnectionLifecycleInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/result/CachedResultSetMetaData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/jdbc/result/ResultSetInternalMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/AddResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/AddStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/ClientFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Collection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Column.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/DatabaseObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/DbDoc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/DeleteStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/DocResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Expression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/FetchResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/FilterParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/FindStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/InsertResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/InsertStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/JsonValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/ModifyStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/RemoveStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Row.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/RowResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Schema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/SelectStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Session.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/SessionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/SqlResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/SqlStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Statement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/UpdateStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/UpdateType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/Warning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/XDevAPIError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-api/java/com/mysql/cj/xdevapi/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/Blob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/BlobFromLocator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/CallableStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/CallableStatementWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ClientInfoProviderSP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ClientPreparedStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/Clob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/CommentClientInfoProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionGroupManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/DatabaseMetaData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/DatabaseMetaDataUsingInfoSchema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/EscapeProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/EscapeProcessorResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/IterateBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/JdbcPropertySetImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlConnectionPoolDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlDataSourceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlParameterMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlPooledConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlSQLXML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlSavepoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXAConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXADataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXAException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/NClob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/NonRegisteringDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ParameterBindingsImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/PreparedStatementWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ServerPreparedStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/StatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/StatementWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/SuspendableXAConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/WrapperBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/admin/MiniAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/CommunicationsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/ConnectionFeatureNotAvailableException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLQueryInterruptedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLStatementCancelledException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLTimeoutException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLTransactionRollbackException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MysqlDataTruncation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/NotUpdatable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/OperationNotSupportedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/PacketTooBigException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/SQLError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/BestResponseTimeBalanceStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/FailoverConnectionProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/LoadBalancedAutoCommitInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/LoadBalancedConnectionProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/LoadBalancedMySQLConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/MultiHostConnectionProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/MultiHostMySQLConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/NdbLoadBalanceExceptionChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/RandomBalanceStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationConnectionGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationConnectionGroupManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationConnectionProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationMySQLConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/SequentialBalanceStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ServerAffinityStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/ha/StandardLoadBalanceExceptionChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/integration/c3p0/MysqlConnectionTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/interceptors/ResultSetScannerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/interceptors/ServerStatusDiffInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/interceptors/SessionAssociationInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/ReplicationGroupManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/ReplicationGroupManagerMBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/result/CachedResultSetMetaDataImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/result/ResultSetFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/result/ResultSetImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/result/ResultSetMetaData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/result/UpdatableResultSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/jdbc/util/BaseBugReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/AbstractDataResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/AbstractFilterParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/AddResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/AddResultImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/AddStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/ClientImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/CollectionImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/ColumnImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/CreateIndexParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DatabaseObjectDescription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DbDocFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DbDocImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DbDocValueFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DeleteStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DocFilterParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DocResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/DocResultImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/ExprParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/ExprUnparser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/ExprUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/FilterableStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/FindStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertResultImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonLiteral.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/ModifyStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/PreparableStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/RemoveStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/RowFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/RowImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/RowResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/RowResultImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SchemaImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SelectStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SessionImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlMultiResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlSingleResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlUpdateResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/StreamingDocResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/StreamingRowResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/StreamingSqlResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/TableFilterParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/TableImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateResultBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateStatementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/main/user-impl/java/com/mysql/cj/xdevapi/WarningImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/ca-cert-ext.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/ca-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/ca-key-ext.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/ca-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/ca-truststore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/ca-truststore-ext" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/certs_howto.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/client-cert-ext.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/client-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/client-key-ext.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/client-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/client-keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/client-keystore-ext" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/mykey.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/mykey.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/server-cert-ext.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/server-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/server-key-ext.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/config/ssl-test-certs/server-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/CharsetMappingWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/ConnectionUrlTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/MessagesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/ServerVersionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/CompressedPacketSenderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/DebugBufferingPacketSenderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/MysqlBinaryValueDecoderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/MysqlTextValueDecoderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/PacketSenderTestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/SimplePacketReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/a/SimplePacketSenderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/x/CompressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/x/SyncMessageReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/protocol/x/SyncMessageWriterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/BigDecimalValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/BinaryStreamValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/BooleanValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/ByteValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/CommonAsserts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/DoubleValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/FloatValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/IntegerValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/LocalDateTimeValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/LocalDateValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/LocalTimeValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/LongValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/ShortValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/SqlDateValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/SqlTimeValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/SqlTimestampValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/StringValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/result/ZeroDateTimeToNullValueFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/util/StringUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/util/TimeUtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/xdevapi/ExprParserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/com/mysql/cj/xdevapi/JsonDocTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/BaseQueryInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/BaseTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/BufferingLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/InjectedSocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/JUnitSummary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/MockJndiContextFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/TestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/UnreliableSocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/perf/BasePerfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/perf/LoadStorePerfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/perf/RetrievalPerfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/BlobRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/CachedRowsetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/CallableStatementRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/CharsetRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/ConnectionRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/DataSourceRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/DateTimeRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/EscapeProcessorRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/ExceptionSubclassesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/MetaDataRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/MicroPerformanceRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/NonLocalSocketFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/NumbersRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/PooledConnectionRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/ResultSetRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/StatementRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/StressRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/StringRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/SubqueriesRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/SyntaxRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/regression/UtilsRegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/AuthenticationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/BlobTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/CallableStatementTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/CharsetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/ConnectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/DataSourceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/DateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/DateTimeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/EscapeProcessingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/ExceptionsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/MetadataTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/MiniAdminTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/MultiHostConnectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/NumbersTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/QueryAttributesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/ReadOnlyCallableStatementTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/ResultSetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/SSLTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/SaslPrepTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/SequentialIdLeaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/ServerControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/SimpleTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/SplitDBdotNameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/StatementsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/TestLifecycleInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/TransactionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/TraversalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/UpdatabilityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/UtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/simple/XATest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/AsyncQueryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/BaseCollectionTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/BaseTableTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/BindTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/CollectionAddTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/CollectionFindTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/CollectionModifyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/CollectionRemoveTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/CollectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/CompressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/DevApiBaseTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/Ipv6SupportTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/MetadataTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/ResultTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/RowLockingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/SchemaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/SecureSessionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/SessionFailoverTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/SessionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/TableDeleteTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/TableInsertTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/TableSelectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/TableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/TableUpdateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/TransactionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/devapi/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/internal/InternalXBaseTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/internal/MysqlxSessionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/internal/XProtocolAsyncTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/internal/XProtocolAuthTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/internal/XProtocolTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.26/src/test/java/testsuite/x/internal/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CategoryIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CategoryIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/OrderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartItemEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CategoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/OrdersEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ProductEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/email/EmailVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/email/EmailVerify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -824,14 +130,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="JPA.DatabaseSchemaImportDialog" value="d1f0f32e-7614-4d04-915a-8d28b482d53d" />
-    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.2.Final.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jboss-logging-spi-2.0.2.GA.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15075377" />
     <property name="project.structure.side.proportion" value="0.38270143" />
@@ -859,17 +165,17 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.53" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/Tech_Shop_war/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/Tech_Shop_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Tech_Shop:war">
+        <artifact name="Tech_Shop:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Tech_Shop_war" />
+            <option name="CONTEXT_PATH" value="/Tech_Shop_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="c0f300b2-3a04-4cab-b915-bfb2f78bb342" />
+        <option name="BASE_DIRECTORY_NAME" value="446756f5-5c3d-4ed8-a02e-d894ae9d0bf6" />
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -878,7 +184,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63579" />
+        <option name="DEBUG_PORT" value="50438" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -943,8 +249,20 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Tech_Shop:war" />
+          <artifact name="Tech_Shop:war exploded" />
         </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -979,11 +297,87 @@
       <workItem from="1639216237288" duration="1402000" />
       <workItem from="1639301484197" duration="4895000" />
       <workItem from="1639311257289" duration="3989000" />
+      <workItem from="1639778471169" duration="1810000" />
+      <workItem from="1639780303869" duration="729000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.github.pagehelper:pagehelper" />
+    <option featureType="dependencySupport" implementationName="java:commons-codec:commons-codec" />
+    <option featureType="dependencySupport" implementationName="java:org.javassist:javassist" />
+    <option featureType="dependencySupport" implementationName="java:jboss:jboss-logging-spi" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.platform:junit-platform-engine" />
+    <option featureType="dependencySupport" implementationName="java:javax.activation:activation" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss:jandex" />
+    <option featureType="dependencySupport" implementationName="java:javax.activation:javax.activation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.dom4j:dom4j" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.javax.persistence:hibernate-jpa-2.1-api" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml:classmate" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.common:hibernate-commons-annotations" />
+    <option featureType="dependencySupport" implementationName="java:commons-io:commons-io" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:jaxb-runtime" />
+    <option featureType="dependencySupport" implementationName="java:com.cloudinary:cloudinary-core" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.mail:javax.mail" />
+    <option featureType="dependencySupport" implementationName="java:xerces:xercesImpl" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang:scala-library" />
+    <option featureType="dependencySupport" implementationName="java:io.circe:circe-core_2.13" />
+    <option featureType="dependencySupport" implementationName="java:io.circe:circe-core_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:txw2" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec" />
+    <option featureType="dependencySupport" implementationName="java:org.typelevel:cats-kernel_2.13" />
+    <option featureType="dependencySupport" implementationName="java:au.id.tmm.http-constants:http-constants-core_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.opentest4j:opentest4j" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:jstl" />
+    <option featureType="dependencySupport" implementationName="java:org.typelevel:cats-kernel_2.12" />
+    <option featureType="dependencySupport" implementationName="java:io.circe:circe-numbers_2.13" />
+    <option featureType="dependencySupport" implementationName="java:au.id.tmm.http-constants:http-constants-core_2.13" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.xml.fastinfoset:FastInfoset" />
+    <option featureType="dependencySupport" implementationName="java:io.circe:circe-numbers_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-engine" />
+    <option featureType="dependencySupport" implementationName="java:com.hp.hpl.jena:iri" />
+    <option featureType="dependencySupport" implementationName="java:org.typelevel:cats-macros_2.13" />
+    <option featureType="dependencySupport" implementationName="java:commons-logging:commons-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.typelevel:cats-macros_2.12" />
+    <option featureType="dependencySupport" implementationName="java:javax.xml.bind:jaxb-api" />
+    <option featureType="dependencySupport" implementationName="java:org.jvnet.staxex:stax-ex" />
+    <option featureType="dependencySupport" implementationName="java:com.cloudinary:cloudinary-http44" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpcore" />
+    <option featureType="dependencySupport" implementationName="java:org.typelevel:cats-core_2.13" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-lang3" />
+    <option featureType="dependencySupport" implementationName="java:org.typelevel:cats-core_2.12" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.mail:all" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.platform:junit-platform-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.logging:jboss-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:au.id.tmm.http-constants:http-constants-circe_2.13" />
+    <option featureType="dependencySupport" implementationName="java:au.id.tmm.http-constants:http-constants-circe_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpmime" />
+    <option featureType="dependencySupport" implementationName="java:antlr:antlr" />
+    <option featureType="dependencySupport" implementationName="java:com.ibm.icu:icu4j" />
+    <option featureType="dependencySupport" implementationName="java:com.restfb:restfb" />
+    <option featureType="dependencySupport" implementationName="java:au.id.tmm.http-constants:http-constants-argonaut_2.13" />
+    <option featureType="dependencySupport" implementationName="java:com.hp.hpl.jena:jena" />
+    <option featureType="dependencySupport" implementationName="java:io.argonaut:argonaut_2.13" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.istack:istack-commons-runtime" />
+    <option featureType="dependencySupport" implementationName="java:io.argonaut:argonaut_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpclient" />
+    <option featureType="dependencySupport" implementationName="java:mysql:mysql-connector-java" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-log4j12" />
+    <option featureType="dependencySupport" implementationName="java:com.github.jsqlparser:jsqlparser" />
+    <option featureType="dependencySupport" implementationName="java:org.apiguardian:apiguardian-api" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:javax.servlet-api" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang:scala-reflect" />
+    <option featureType="dependencySupport" implementationName="java:log4j:log4j" />
+    <option featureType="dependencySupport" implementationName="java:au.id.tmm.http-constants:http-constants-argonaut_2.12" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -996,5 +390,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

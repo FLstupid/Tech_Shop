@@ -5,12 +5,12 @@
              version="2.2">
   <persistence-unit name="shoping" transaction-type="RESOURCE_LOCAL">
       <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-      <class>Model.CartEntity</class>
-      <class>Model.CartItemEntity</class>
-      <class>Model.CategoryEntity</class>
-      <class>Model.OrdersEntity</class>
-      <class>Model.ProductEntity</class>
-      <class>Model.UserEntity</class>
+      <class>Model.Cart</class>
+      <class>Model.CartItem</class>
+      <class>Model.Category</class>
+      <class>Model.Order</class>
+      <class>Model.Product</class>
+      <class>Model.User</class>
 
       <properties>
           <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/shoping"/>

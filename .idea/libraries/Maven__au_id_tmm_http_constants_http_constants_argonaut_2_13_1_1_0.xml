@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: au.id.tmm.http-constants:http-constants-argonaut_2.13:1.1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/au/id/tmm/http-constants/http-constants-argonaut_2.13/1.1.0/http-constants-argonaut_2.13-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/au/id/tmm/http-constants/http-constants-argonaut_2.13/1.1.0/http-constants-argonaut_2.13-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/au/id/tmm/http-constants/http-constants-argonaut_2.13/1.1.0/http-constants-argonaut_2.13-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -113,11 +113,11 @@
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="${listproduct.picture}" alt="./img/product01.png">
+													<img src="{listproduct.picture}" alt="./img/product01.png">
 												</div>
 												<div class="product-body">
-													<h3 class="product-name"><a href="#">${listproduct.productName}</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>$${listproduct.price}</h4>
+													<h3 class="product-name"><a href="#">{listproduct.productName}</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>{listproduct.price}</h4>
 												</div>
 												<button class="delete"><i class="fa fa-close"></i></button>
 											</div>
