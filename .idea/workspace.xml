@@ -9,20 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AdminBill.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tech_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tech_Shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8ff76a57-9c49-4cb0-9a57-1fe48cb5da48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8ff76a57-9c49-4cb0-9a57-1fe48cb5da48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" afterDir="false" />
+    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="test1">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2021_10_00_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2021_10_00_AM__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +229,30 @@
       <workItem from="1639811438520" duration="3775000" />
       <workItem from="1639818156934" duration="14000" />
       <workItem from="1639818624084" duration="541000" />
+      <workItem from="1639819179701" duration="338000" />
     </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1639819257378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639819257378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test1">
+      <created>1639819320886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639819320886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test1">
+      <created>1639819390767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639819390767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +343,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
