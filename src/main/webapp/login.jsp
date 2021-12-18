@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Login</title>
@@ -11,7 +11,7 @@
 <h2>Welcome to Electronic Device Shop</h2>
 <div class="container" id="container">
     <div class="form-container sign-up-container">
-        <form action="login">
+        <form method="post" action="login">
             <input type="hidden" name="action" value="add">
             <h1>Create Account</h1>
             <div class="social-container">
@@ -19,15 +19,15 @@
                 <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
             </div>
             <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <input type="password" placeholder="Confirm Password" />
-            <button>Sign Up</button>
+            <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" minlength="6" name="password" placeholder="Password" />
+            <input type="password" minlength="6" name="confirmpassword" placeholder="Confirm Password" />
+            <button type="submit">Sign Up</button>
         </form>
     </div>
     <div class="form-container sign-in-container">
-        <form action="login">
+        <form method="post" action="login">
             <input type="hidden" name="action" value="signin">
             <h1>Sign in</h1>
             <div class="social-container">
@@ -35,16 +35,16 @@
                 <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <a href="#">Forgot your password?</a>
-            <button>Sign In</button>
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+            <a href="reset_password">Forgot your password?</a>
+            <button type="submit">Sign In</button>
         </form>
     </div>
     <div class="overlay-container">
         <div class="overlay">
             <div class="overlay-panel overlay-left">
-                <a href="index.jsp" class="logo">
+                <a href="${pageContext.request.contextPath}/index" class="logo">
                     <img src="./img/logo1.png" alt="">
                 </a>
                 <h1>Welcome Back!</h1>

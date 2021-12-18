@@ -113,7 +113,8 @@
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{listproduct.picture}" alt="./img/product01.png">
+													<div
+														 ></div>
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">{listproduct.productName}</a></h3>
@@ -145,8 +146,6 @@
 									</div>
 								</div>
 								<!-- /Cart -->
-
-
 
 								<!-- Menu Toogle -->
 								<div class="menu-toggle">

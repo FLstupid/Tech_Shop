@@ -8,6 +8,7 @@ import javax.persistence.*;
 @Entity
 public class Cart {
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
 

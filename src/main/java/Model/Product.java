@@ -6,6 +6,7 @@ import javax.persistence.*;
 @Entity
 public class Product {
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
 
@@ -30,6 +31,10 @@ public class Product {
     private String content;
 
     public Product(String productName, String productimage, Double productprice, String productcontent, String productnsx1, Category category) {
+    }
+
+    public Product() {
+
     }
 
     public String getContent() {

@@ -72,7 +72,7 @@ public class LoginServlet extends HttpServlet {
 
                     if(test){
                         HttpSession session  = request.getSession();
-                        temp = new User(email, password);
+                        temp = new User(username,email, password);
                         session.setAttribute("account", temp);
                         url="/verify.jsp";
                         message = "We already send a verification  code to your email.";
@@ -104,7 +104,7 @@ public class LoginServlet extends HttpServlet {
                     request.setAttribute("account", temp);
                     request.getSession().setAttribute("account", temp);
                     t = temp.getUserName();
-                    url = "/Home.jsp";
+                    url = "/index.jsp";
                 } else {
                     message = "Mật khẩu không trùng khớp";
                 }

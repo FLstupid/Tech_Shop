@@ -9,7 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="" />
+    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ResetPasswordDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ResetPasswordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/email/EmailVerifyResetPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resetpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/verifyresetpass.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/verify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/verify.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +93,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jboss-logging-spi-2.0.2.GA.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15075377" />
     <property name="project.structure.side.proportion" value="0.38270143" />
@@ -82,11 +102,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp" />
+      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\java\Controller" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\META-INF" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main" />
       <recent name="D:\HK1-3\CNTT\Tech_Shop\lib" />
-      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\css" />
-      <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\resources" />
@@ -97,6 +117,9 @@
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="Model" />
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="email" />
     </key>
   </component>
   <component name="RunManager">
@@ -224,6 +247,7 @@
       <workItem from="1639778471169" duration="1810000" />
       <workItem from="1639780303869" duration="729000" />
       <workItem from="1639783498927" duration="8000" />
+      <workItem from="1639814476522" duration="5134000" />
     </task>
     <servers />
   </component>
@@ -315,16 +339,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

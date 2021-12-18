@@ -63,7 +63,7 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-                                                                    <img src="./img/logo1.png" alt="">
+									<img src="./img/logo1.png" alt="">
 								</a>
 							</div>
 						</div>
@@ -100,21 +100,20 @@
 
                                                                 
                                                                 
-                                                                <!--Notification-->
-                                                                <div class="dropdown">
-                                                                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+								<!--Notification-->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-bell"></i>
 										<span>Notification</span>
 										<div class="qty">1</div>
 									</a>
-                                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                                        <li><a class="dropdown-item" href="#">Welcome to our shop</a></li>
-                                                                        
-                                                                    </ul>
-                                                                </div>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										<li><a class="dropdown-item" href="#">Welcome to our shop</a></li>
+									</ul>
+								</div>
                                                                 
 								<!-- Cart -->
-                                                                <div class="dropdown">
+								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Your Cart</span>
@@ -143,9 +142,6 @@
 												</div>
 												<button class="delete"><i class="fa fa-close"></i></button>
 											</div>
-                                                                                    
-                                                                                    
-                                                                                    
 										</div>
 										<div class="cart-summary">
 											<small>3 Item(s) selected</small>
@@ -158,8 +154,6 @@
 									</div>
 								</div>
 								<!-- /Cart -->
-                                                                
-                                                                
 
 								<!-- Menu Toogle -->
 								<div class="menu-toggle">

@@ -1,15 +1,13 @@
 package Model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Table(name = "user")
 @Entity
 public class User {
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
 
@@ -34,9 +32,14 @@ public class User {
     @Column(name = "address")
     private String address;
 
-    public User(String email, String password) {
+    public User(String username, String email, String password) {
+        this.userName = username;
         this.email = email;
         this.password = password;
+    }
+
+    public User() {
+
     }
 
     public String getAddress() {
