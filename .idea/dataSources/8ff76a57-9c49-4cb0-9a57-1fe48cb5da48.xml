@@ -1121,12 +1121,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>7</Position>
       <DataType>double|0s</DataType>
     </column>
-    <index id="318" parent="289" name="cartId">
-      <ColNames>cartId</ColNames>
+    <index id="318" parent="289" name="userId">
+      <ColNames>userId</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="319" parent="289" name="userId">
-      <ColNames>userId</ColNames>
+    <index id="319" parent="289" name="cartId">
+      <ColNames>cartId</ColNames>
       <Type>btree</Type>
     </index>
     <key id="320" parent="289" name="PRIMARY">
