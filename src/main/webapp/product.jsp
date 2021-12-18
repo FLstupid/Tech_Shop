@@ -37,7 +37,6 @@
 	<body>
 		 <!-- HEADER -->
 		<header>
-<!--			 TOP HEADER 
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
@@ -51,7 +50,6 @@
 					</ul>
 				</div>
 			</div>
-			 /TOP HEADER -->
 
 			<!-- MAIN HEADER -->
 			<div id="header">
@@ -69,10 +67,10 @@
 						</div>
 						<!-- /LOGO -->
 
-<!--						 SEARCH BAR 
--->						<div class="col-md-6">
+						<!--SEARCH BAR -->
+						<div class="col-md-6">
 							<div class="header-search">
-<!--								<form>
+								<form>
 									<select class="input-select">
 										<option value="0">All Categories</option>
 										<option value="1">Category 01</option>
@@ -80,15 +78,14 @@
 									</select>
 									<input class="input" placeholder="Search here">
 									<button class="search-btn">Search</button>
-								</form>-->
+								</form>
 							</div>
-						</div><!--
-						 /SEARCH BAR -->
+						</div>
+						<!-- SEARCH BAR -->
 
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
-    <!--								 Wishlist 
 								<div>
 									<a href="#">
 										<i class="fa fa-heart-o"></i>
@@ -96,10 +93,7 @@
 										<div class="qty">2</div>
 									</a>
 								</div>
-								 /Wishlist -->
 
-                                                                
-                                                                
 								<!--Notification-->
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
@@ -178,13 +172,9 @@
                     <h3 class="title">Product</h3>
 		</div>
 
-<!--		 NAVIGATION 
 		<nav id="navigation">
-			 container 
 			<div class="container">
-				 responsive-nav 
 				<div id="responsive-nav">
-					 NAV 
 					<ul class="main-nav nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#">Hot Deals</a></li>
@@ -194,19 +184,12 @@
 						<li><a href="#">Cameras</a></li>
 						<li><a href="#">Accessories</a></li>
 					</ul>
-					 /NAV 
 				</div>
-				 /responsive-nav 
 			</div>
-			 /container 
 		</nav>
-		 /NAVIGATION 
 
-		 BREADCRUMB 
 		<div id="breadcrumb" class="section">
-			 container 
 			<div class="container">
-				 row 
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="breadcrumb-tree">
@@ -218,41 +201,29 @@
 						</ul>
 					</div>
 				</div>
-				 /row 
 			</div>
-			 /container 
 		</div>
-		 /BREADCRUMB 
 
-		 SECTION 
 		<div class="section">
-			 container 
 			<div class="container">
-				 row 
 				<div class="row">
-					 Product main img 
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
 								<img src="./img/product01.png" alt="">
 							</div>
-
 							<div class="product-preview">
 								<img src="./img/product03.png" alt="">
 							</div>
-
 							<div class="product-preview">
 								<img src="./img/product06.png" alt="">
 							</div>
-
 							<div class="product-preview">
 								<img src="./img/product08.png" alt="">
 							</div>
 						</div>
 					</div>
-					 /Product main img 
 
-					 Product thumb imgs 
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
@@ -272,9 +243,7 @@
 							</div>
 						</div>
 					</div>
-					 /Product thumb imgs 
 
-					 Product details 
 					<div class="col-md-5">
 						<div class="product-details">
 							<h2 class="product-name">product name goes here</h2>
@@ -296,13 +265,11 @@
 
 							<div class="product-options">
 								<label>
-									Size
 									<select class="input-select">
 										<option value="0">X</option>
 									</select>
 								</label>
 								<label>
-									Color
 									<select class="input-select">
 										<option value="0">Red</option>
 									</select>
@@ -311,7 +278,6 @@
 
 							<div class="add-to-cart">
 								<div class="qty-label">
-									Qty
 									<div class="input-number">
 										<input type="number">
 										<span class="qty-up">+</span>
@@ -342,22 +308,16 @@
 
 						</div>
 					</div>
-					 /Product details 
 
-					 Product tab 
 					<div class="col-md-12">
 						<div id="product-tab">
-							 product tab nav 
 							<ul class="tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
 								<li><a data-toggle="tab" href="#tab2">Details</a></li>
 								<li><a data-toggle="tab" href="#tab3">Reviews (3)</a></li>
 							</ul>
-							 /product tab nav 
 
-							 product tab content 
 							<div class="tab-content">
-								 tab1  
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
@@ -365,9 +325,7 @@
 										</div>
 									</div>
 								</div>
-								 /tab1  
 
-								 tab2  
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
@@ -375,12 +333,9 @@
 										</div>
 									</div>
 								</div>
-								 /tab2  
 
-								 tab3  
 								<div id="tab3" class="tab-pane fade in">
 									<div class="row">
-										 Rating 
 										<div class="col-md-3">
 											<div id="rating">
 												<div class="rating-avg">
@@ -462,9 +417,7 @@
 												</ul>
 											</div>
 										</div>
-										 /Rating 
 
-										 Reviews 
 										<div class="col-md-6">
 											<div id="reviews">
 												<ul class="reviews">
@@ -526,9 +479,7 @@
 												</ul>
 											</div>
 										</div>
-										 /Reviews 
 
-										 Review Form 
 										<div class="col-md-3">
 											<div id="review-form">
 												<form class="review-form">
@@ -549,36 +500,25 @@
 												</form>
 											</div>
 										</div>
-										 /Review Form 
 									</div>
 								</div>
 								 /tab3  
 							</div>
-							 /product tab content  
 						</div>
 					</div>
-					 /product tab 
 				</div>
-				 /row 
 			</div>
-			 /container 
 		</div>
-		 /SECTION 
 
-		 Section 
 		<div class="section">
-			 container 
 			<div class="container">
-				 row 
 				<div class="row">
-
 					<div class="col-md-12">
 						<div class="section-title text-center">
 							<h3 class="title">Related Products</h3>
 						</div>
 					</div>
 
-					 product 
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
@@ -604,9 +544,7 @@
 							</div>
 						</div>
 					</div>
-					 /product 
 
-					 product 
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
@@ -637,11 +575,9 @@
 							</div>
 						</div>
 					</div>
-					 /product 
 
 					<div class="clearfix visible-sm visible-xs"></div>
 
-					 product 
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
@@ -669,9 +605,7 @@
 							</div>
 						</div>
 					</div>
-					 /product 
 
-					 product 
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
@@ -694,20 +628,12 @@
 							</div>
 						</div>
 					</div>
-					 /product 
-
 				</div>
-				 /row 
 			</div>
-			 /container 
 		</div>
-		 /Section 
 
-		 NEWSLETTER 
 		<div id="newsletter" class="section">
-			 container 
 			<div class="container">
-				 row 
 				<div class="row">
 					<div class="col-md-12">
 						<div class="newsletter">
@@ -733,11 +659,8 @@
 						</div>
 					</div>
 				</div>
-				 /row 
 			</div>
-			 /container 
 		</div>
-		 /NEWSLETTER -->
 
 		 <!--FOOTER--> 
 		<footer id="footer">
@@ -748,7 +671,7 @@
 					 <!--row--> 
 					<div class="row">
 						<div class="col-md-3 col-xs-6">
-<!--							<div class="footer">
+							<div class="footer">
 								<h3 class="footer-title">About Us</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
 								<ul class="footer-links">
@@ -756,10 +679,10 @@
 									<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
 									<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
 								</ul>
-							</div>-->
+							</div>
 						</div>
 
-<!--						<div class="col-md-3 col-xs-6">
+						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">Categories</h3>
 								<ul class="footer-links">
@@ -770,20 +693,20 @@
 									<li><a href="#">Accessories</a></li>
 								</ul>
 							</div>
-						</div>-->
+						</div>
 
 						<div class="clearfix visible-xs"></div>
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">Information</h3>
-<!--								<ul class="footer-links">
+								<ul class="footer-links">
 									<li><a href="#">About Us</a></li>
 									<li><a href="#">Contact Us</a></li>
 									<li><a href="#">Privacy Policy</a></li>
 									<li><a href="#">Orders and Returns</a></li>
 									<li><a href="#">Terms & Conditions</a></li>
-								</ul>-->
+								</ul>
 							</div>
 						</div>
 
@@ -806,10 +729,8 @@
 			</div>
 			 <!--/top footer--> 
 
-<!--			 bottom footer 
 			<div id="bottom-footer" class="section">
 				<div class="container">
-					 row 
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<ul class="footer-payments">
@@ -827,11 +748,8 @@
 							</span>
 						</div>
 					</div>
-						 /row 
 				</div>
-				 /container 
 			</div>
-			 /bottom footer -->
 		</footer>
 		 <!--/FOOTER--> 
 
