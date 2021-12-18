@@ -1,0 +1,63 @@
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 103dec16bc0ed30583d0a61abb4a7949acba55cc)
++++ b/.idea/encodings.xml	(date 1639796409011)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="Encoding">
+     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/Tech_Shop.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"web\" name=\"Web\">\r\n      <configuration>\r\n        <descriptors>\r\n          <deploymentDescriptor name=\"context.xml\" url=\"file://$MODULE_DIR$/src/main/webapp/META-INF/context.xml\" />\r\n          <deploymentDescriptor name=\"web.xml\" url=\"file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml\" />\r\n        </descriptors>\r\n        <webroots>\r\n          <root url=\"file://$MODULE_DIR$/src/main/webapp\" relative=\"/\" />\r\n        </webroots>\r\n        <sourceRoots />\r\n      </configuration>\r\n    </facet>\r\n    <facet type=\"jpa\" name=\"JPA\">\r\n      <configuration>\r\n        <setting name=\"validation-enabled\" value=\"true\" />\r\n        <setting name=\"provider-name\" value=\"Hibernate\" />\r\n        <datasource-mapping>\r\n          <factory-entry name=\"Tech_Shop\" value=\"d1f0f32e-7614-4d04-915a-8d28b482d53d\" />\r\n          <factory-entry name=\"shoping\" value=\"d1f0f32e-7614-4d04-915a-8d28b482d53d\" />\r\n        </datasource-mapping>\r\n        <naming-strategy-map>\r\n          <unit-entry name=\"Tech_Shop\" />\r\n        </naming-strategy-map>\r\n        <deploymentDescriptor name=\"persistence.xml\" url=\"file://$MODULE_DIR$/src/main/java/persistence.xml\" />\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"Maven: javax.servlet:javax.servlet-api:4.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.7.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.opentest4j:opentest4j:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-commons:1.7.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-engine:1.7.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"JPA 1.0-JPA 1.0\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Tech_Shop.iml b/.idea/Tech_Shop.iml
+--- a/.idea/Tech_Shop.iml	(revision 103dec16bc0ed30583d0a61abb4a7949acba55cc)
++++ b/.idea/Tech_Shop.iml	(date 1639796409002)
+@@ -10,7 +10,10 @@
+         <webroots>
+           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+         </webroots>
+-        <sourceRoots />
++        <sourceRoots>
++          <root url="file://$MODULE_DIR$/src/main/java" />
++          <root url="file://$MODULE_DIR$/src/main/resources" />
++        </sourceRoots>
+       </configuration>
+     </facet>
+     <facet type="jpa" name="JPA">
+@@ -33,10 +36,14 @@
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+       <excludeFolder url="file://$MODULE_DIR$/target" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="JPA 1.0-JPA 1.0" level="project" />
+     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.1" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+@@ -44,6 +51,5 @@
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+-    <orderEntry type="library" name="JPA 1.0-JPA 1.0" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
