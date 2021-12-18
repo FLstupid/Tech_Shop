@@ -25,6 +25,7 @@
             </script>
         </c:if>
     </form>
+</div>
 </head>
 </body>
 </html>
