@@ -135,7 +135,7 @@
             <td>
                 <form action="admin-bill" method="post">
                     <input type="hidden" name="id" value="">
-                    <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Detail">
+                    <input style="border: 0; background-color: rgba(0, 0, 0, 0);" type="submit" value="Detail">
                 </form>
             </td>
         </tr>

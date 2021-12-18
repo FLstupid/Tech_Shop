@@ -45,7 +45,7 @@
 					</ul>
 					<ul class="header-links pull-right">
 
-						<li><a href="Login.jsp"><i class="fa fa-user-o"></i> Admin</a></li>
+						<li><a href="${pageContext.request.contextPath}/login"><i class="fa fa-user-o"></i> Admin</a></li>
 					</ul>
 				</div>
 			</div>
