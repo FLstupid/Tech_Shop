@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--@elvariable id="Total" type="java.lang.String"--%>
 <%--@elvariable id="listproduct" type="Model.ProductEntity"--%>
 <%--@elvariable id="numberproduct" type="java.lang.String"--%>
@@ -235,9 +236,11 @@
 								<!-- tab -->
 								<div id="tab1" class="tab-pane active">
 									<div class="products-slick" data-nav="#slick-nav-1">
-                                                                            
+
+										<c:forEach items="${listproduct}" var="elements" begin="1" end="4">
 										<!-- product -->
-										<form>
+										<form action="cart" method="post">
+											<input type="hidden" value="add">
 										<div class="product">
 											<div class="product-img">
 												<img src="./img/product01.png" alt="">
@@ -247,12 +250,9 @@
 												</div>
 											</div>
 											<div class="product-body">
-												<p class="product-category">Category</p>
-												<h3 class="product-name"><a href="#">product name goes here may tinh</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-												<div class="product-rating">
-												</div>
-
+												<p class="product-category" name="product-category">${elements[0]}</p>
+												<h3 class="product-name" name="product-name"><a href="product?action=detail&amp;productCode=${elements[1]}">${elements[2]}</a></h3>
+												<h4 class="product-price" name="product-price">$${elements[3]}<del class="product-old-price">$999.00$</del></h4>
 											</div>
 											<div class="add-to-cart">
 												<button type="submit" class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> Add to cart </button>
@@ -260,6 +260,7 @@
 										</div>
 										<!-- /product -->
 										</form>
+										</c:forEach>
 									</div>
 									<div id="slick-nav-1" class="products-slick-nav"></div>
 								</div>
@@ -286,9 +287,6 @@
 					<div class="col-md-12">
 						<div class="section-title">
 							<h3 class="title">Top selling</h3>
-							<div class="section-nav">
-
-							</div>
 						</div>
 					</div>
 					<!-- /section title -->
@@ -300,6 +298,7 @@
 								<!-- tab -->
 								<div id="tab2" class="tab-pane fade in active">
 									<div class="products-slick" data-nav="#slick-nav-2">
+										<form>
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
@@ -314,16 +313,14 @@
 												<h3 class="product-name"><a href="#">product name goes here</a></h3>
 												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
 												<div class="product-rating">
-
 												</div>
-
 											</div>
 											<div class="add-to-cart">
 												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
 											</div>
 										</div>
 										<!-- /product -->
-
+										</form>
 
 										</div>
 									<div id="slick-nav-2" class="products-slick-nav"></div>
