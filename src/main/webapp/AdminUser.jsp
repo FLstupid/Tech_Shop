@@ -26,7 +26,7 @@
 
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
-<%--    <link type="text/css" rel="stylesheet" href="css/table.css"/>--%>
+    <%--    <link type="text/css" rel="stylesheet" href="css/table.css"/>--%>
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -114,61 +114,57 @@
 <!-- /HEADER -->
 
 <section id="list"class="list">
-<div class="container">
-    <h2>List Cart</h2>
-    <table class="table table-bordered table-striped table-responsive-stack"  id="tableOne">
-        <thead class="thead-dark">
-        <tr>
-            <th><h3 style="text-align: center">Cart ID</h3></th>
-            <th><h3 style="text-align: center">User ID</h3></th>
-            <th><h3 style="text-align: center">Price</h3></th>
-
-
-<%--            <th><h3 style="text-align: center">Customer ID</h3></th>--%>
-<%--            <th><h3 style="text-align: center">Customer Name</h3></th>--%>
-<%--            <th><h3 style="text-align: center">Mail</h3></th>--%>
-<%--            <th><h3 style="text-align: center">Phone</h3></th>--%>
-<%--            <th><h3 style="text-align: center">Address</h3></th>--%>
-        </tr>
-        </thead>
-        <tbody>
-
-        <c:forEach var="bill" items="${ListCart}">
+    <div class="container">
+        <h2>List User</h2>
+        <table class="table table-bordered table-striped table-responsive-stack"  id="tableOne">
+            <thead class="thead-dark">
             <tr>
-                <td>${bill.getId()}</td>
-                <td>${bill.getUserId()}</td>
-                <td>${bill.getPrice()}</td>
-
-
-                <td>
-                    <form action="admin-bill" method="post">
-                        <input type="hidden" name="id" value="${bill.getId()}">
-                        <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">
-                    </form>
-                </td>
+                <th><h3 style="text-align: center">Customer ID</h3></th>
+                <th><h3 style="text-align: center">Customer Name</h3></th>
+                <th><h3 style="text-align: center">Mail</h3></th>
+                <th><h3 style="text-align: center">Phone</h3></th>
+                <th><h3 style="text-align: center">Address</h3></th>
             </tr>
-        </c:forEach>
+            </thead>
+            <tbody>
 
-<%--        <tr>--%>
-<%--            <td>dfhdf</td>--%>
-<%--            <td>dfhdh</td>--%>
-<%--            <td>dfhfd</td>--%>
-<%--            <td>hdfhdfh</td>--%>
-<%--            <td>dfhfdhfdh</td>--%>
-<%--            <td>--%>
-<%--                <form action="admin-bill" method="post">--%>
-<%--&lt;%&ndash;                    <input type="hidden" name="id" value="${bill.getId()}">&ndash;%&gt;--%>
-<%--                    <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">--%>
-<%--                </form>--%>
-<%--            </td>--%>
-<%--        </tr>--%>
+            <c:forEach var="bill" items="${ListUseridName}">
+                <tr>
+                    <td>${bill.getId()}</td>
+                    <td>${bill.getUserName()}</td>
+                    <td>${bill.getEmail()}</td>
+                    <td>${bill.getPhone()}</td>
+                    <td>${bill.getAddress()}</td>
 
-        </tbody>
-    </table>
+                    <td>
+                        <form action="admin-bill" method="post">
+                            <input type="hidden" name="id" value="${bill.getId()}">
+                            <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">
+                        </form>
+                    </td>
+                </tr>
+            </c:forEach>
+
+            <%--        <tr>--%>
+            <%--            <td>dfhdf</td>--%>
+            <%--            <td>dfhdh</td>--%>
+            <%--            <td>dfhfd</td>--%>
+            <%--            <td>hdfhdfh</td>--%>
+            <%--            <td>dfhfdhfdh</td>--%>
+            <%--            <td>--%>
+            <%--                <form action="admin-bill" method="post">--%>
+            <%--&lt;%&ndash;                    <input type="hidden" name="id" value="${bill.getId()}">&ndash;%&gt;--%>
+            <%--                    <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">--%>
+            <%--                </form>--%>
+            <%--            </td>--%>
+            <%--        </tr>--%>
+
+            </tbody>
+        </table>
 
 
-</div>
-<!-- /.container -->
+    </div>
+    <!-- /.container -->
 </section>
 
 

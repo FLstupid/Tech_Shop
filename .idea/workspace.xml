@@ -9,9 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="test1">
+    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AdminListBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AdminListUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/AdminUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AdminBill.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AdminBill.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JpaEntity" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -69,7 +83,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="JPA.DatabaseSchemaImportDialog" value="d1f0f32e-7614-4d04-915a-8d28b482d53d" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="199c3f9d-f4d8-4544-81dc-19a26cd01acf" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -99,12 +113,12 @@
       <recent name="D:\HK1-3\CNTT\Tech_Shop\src\main\webapp\META-INF" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="Model" />
       <recent name="" />
+      <recent name="Model" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.53" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Tech_Shop:war exploded">
@@ -231,8 +245,7 @@
       <workItem from="1639818156934" duration="14000" />
       <workItem from="1639818624084" duration="541000" />
       <workItem from="1639819179701" duration="338000" />
-      <workItem from="1639871225370" duration="968000" />
-      <workItem from="1639872210536" duration="3560000" />
+      <workItem from="1639874152400" duration="18692000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1639819257378</created>
@@ -255,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639819390767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="database">
+      <created>1639828470400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639828470400</updated>
+    </task>
+    <task id="LOCAL-00005" summary="database">
+      <created>1639828601498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639828601498</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +376,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="database" />
+    <option name="LAST_COMMIT_MESSAGE" value="database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        HttpSession httpSession = request.getSession();
         String url = "/login.jsp";
         String action = request.getParameter("action");
         String message = null;
@@ -93,6 +93,10 @@ public class LoginServlet extends HttpServlet {
             if (email == null || email.equals("") || password==null || password.equals("")) {
                 message = "Xin hãy nhập tài khoản và mật khẩu";
                 url = "/login.jsp";
+            }else if (email.equals("admin") || password.equals("admin")){
+
+                httpSession.setAttribute("admin","19110204");
+                url = "/Admin";
             }
             else if (UserIO.userExist(email)) {
                 temp = (User) UserIO.selectAcc(email);
@@ -111,6 +115,10 @@ public class LoginServlet extends HttpServlet {
             } else {
                 message = "Tài khoản chưa tồn tại";
             }
+        }
+        else if (action.equals("logout")) {
+            httpSession.removeAttribute("admin");
+            url = "/index.jsp";
         }
         request.getSession().setAttribute("loggedInUser", temp);
         request.setAttribute("message", message);

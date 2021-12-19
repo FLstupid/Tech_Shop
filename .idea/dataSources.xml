@@ -12,5 +12,12 @@ D:/HK1-3/CNTT/Tech_Shop/src/main/resources/META-INF/persistence.xml</remarks>
       <jdbc-url>jdbc:mysql://localhost:3306/shoping</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="shoping@localhost" uuid="32c42f4e-31e8-4c5f-8eed-179d6258ddb3">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/shoping</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
