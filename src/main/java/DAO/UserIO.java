@@ -1,13 +1,13 @@
 package DAO;
 
 import Model.User;
+import org.hibernate.Hibernate;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class UserIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
@@ -95,5 +95,21 @@ public class UserIO {
         }finally {
             em.close();
         }
+    }
+    public static ArrayList<User> getAllAccIDName(){
+        EntityManager em = emf.createEntityManager();
+        TypedQuery<User> listUser;
+        ArrayList<User> results = null;
+        try{
+            listUser = em.createQuery("select a from User a",User.class);
+            results = (ArrayList<User>) listUser.getResultList();
+            System.out.println(results);
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        finally {
+            em.close();
+        }
+        return results;
     }
 }

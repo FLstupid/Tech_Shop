@@ -14,6 +14,7 @@
     <form action="resetpassworddetail.jsp" method="post">
         <h1>Nhập Mật Khẩu Mới</h1>
         <input style="width: 500px;" type="password" name="newpass"/>
+
         <input style="width: 500px;" type="password" name="confirmnewpasss"/>
         <button type="submit" id="btn2" value="verify" class="btn2 btn-submit">Xác Nhận</button>
         <%--@elvariable id="message4" type="java.lang.String"--%>

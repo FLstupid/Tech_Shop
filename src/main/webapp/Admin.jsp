@@ -86,7 +86,7 @@
 
 								<!-- Logout -->
 								<div class="button">
-									<a href="index.jsp" >
+									<a href="login?action=logout" >
 										<i class="fa fa-sign-out" aria-hidden="true"></i>
 									</a>
 
@@ -145,13 +145,27 @@
 							<div id="tab1" class="tab-pane active">
 								<div class="products-slick" data-nav="#slick-nav-1">
 
-									<!-- product -->
-									<form method="get" action="AdminBill.jsp" class="product">
+									<!-- ListBill -->
+									<form method="get" action="AdminListBill" class="product">
 										<div class="product-img">
 											<img src="img/bill.png" alt="">
 										</div>
 										<div class="product-body">
-											<h3 class="product-name"><a href="#">List Bill</a></h3>
+											<h3 class="product-name"><a href="#">List Cart</a></h3>
+										</div>
+										<div style="margin-left: auto " class="add-to-cart-btn">
+											<button type="submit" class="add-to-cart-btn" ><i class="fa fa-lock"></i> Open</button>
+										</div>
+									</form>
+									<!-- /ListBill -->
+
+									<!-- ListBill -->
+									<form method="get" action="AdminListUser" class="product">
+										<div class="product-img">
+											<img src="img/bill.png" alt="">
+										</div>
+										<div class="product-body">
+											<h3 class="product-name"><a href="#">List User</a></h3>
 										</div>
 										<div style="margin-left: auto " class="add-to-cart-btn">
 											<button type="submit" class="add-to-cart-btn" ><i class="fa fa-lock"></i> Open</button>

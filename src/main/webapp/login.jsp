@@ -35,7 +35,7 @@
                 <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" name="email" placeholder="Email" />
+            <input type="text" name="email" placeholder="Email" />
             <input type="password" name="password" placeholder="Password" />
             <a href="reset_password">Forgot your password?</a>
             <button type="submit">Sign In</button>

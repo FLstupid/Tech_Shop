@@ -1,11 +1,10 @@
 package DAO;
 
 import Model.Cart;
+import Model.User;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
+import java.util.ArrayList;
 
 public class CartIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
@@ -67,5 +66,21 @@ public class CartIO {
         }finally {
             em.close();
         }
+    }
+    public static ArrayList<Cart> getAllAccCart(){
+        EntityManager em = emf.createEntityManager();
+        TypedQuery<Cart> listCart;
+        ArrayList<Cart> results = null;
+        try{
+            listCart = em.createQuery("select a from Cart a",Cart.class);
+            results = (ArrayList<Cart>) listCart.getResultList();
+            System.out.println(results);
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        finally {
+            em.close();
+        }
+        return results;
     }
 }
