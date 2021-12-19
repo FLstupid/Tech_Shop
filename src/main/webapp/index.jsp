@@ -100,7 +100,7 @@
                                                                 
 								<!-- Cart -->
 								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="${pageContext.request.contextPath}/checkout">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Your Cart</span>
 										<% session = request.getSession(false);
@@ -110,39 +110,6 @@
 										<div class="qty">${numberproduct}</div>
 										<%}%>
 									</a>
-									<div class="cart-dropdown">
-										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">{listproduct.productName}</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>{listproduct.price}</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product02.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-
-										</div>
-										<div class="cart-summary">
-											<small>${numberproduct} Item(s) selected</small>
-											<h5>SUBTOTAL: $${Total}</h5>
-										</div>
-										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="${pageContext.request.contextPath}/checkout">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-										</div>
-									</div>
 								</div>
 								<!-- /Cart -->
 
@@ -298,29 +265,30 @@
 								<!-- tab -->
 								<div id="tab2" class="tab-pane fade in active">
 									<div class="products-slick" data-nav="#slick-nav-2">
-										<form>
-										<!-- product -->
-										<div class="product">
-											<div class="product-img">
-												<img src="./img/product06.png" alt="">
-												<div class="product-label">
-													<span class="sale">-30%</span>
-													<span class="new">NEW</span>
+										<c:forEach items="${listproduct}" var="elements" begin="1" end="4">
+											<!-- product -->
+											<form action="cart" method="post">
+												<input type="hidden" value="add">
+												<div class="product">
+													<div class="product-img">
+														<img src="./img/product01.png" alt="">
+														<div class="product-label">
+															<span class="sale">-30%</span>
+															<span class="new">NEW</span>
+														</div>
+													</div>
+													<div class="product-body">
+														<p class="product-category" name="product-category">${elements[0]}</p>
+														<h3 class="product-name" name="product-name"><a href="product?action=detail&amp;productCode=${elements[1]}">${elements[2]}</a></h3>
+														<h4 class="product-price" name="product-price">$${elements[3]}<del class="product-old-price">$999.00$</del></h4>
+													</div>
+													<div class="add-to-cart">
+														<button type="submit" class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> Add to cart </button>
+													</div>
 												</div>
-											</div>
-											<div class="product-body">
-												<p class="product-category">Category</p>
-												<h3 class="product-name"><a href="#">product name goes here</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-												<div class="product-rating">
-												</div>
-											</div>
-											<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-											</div>
-										</div>
-										<!-- /product -->
-										</form>
+												<!-- /product -->
+											</form>
+										</c:forEach>
 
 										</div>
 									<div id="slick-nav-2" class="products-slick-nav"></div>
