@@ -278,9 +278,9 @@
 														</div>
 													</div>
 													<div class="product-body">
-														<p class="product-category" name="product-category">${elements[0]}</p>
-														<h3 class="product-name" name="product-name"><a href="product?action=detail&amp;productCode=${elements[1]}">${elements[2]}</a></h3>
-														<h4 class="product-price" name="product-price">$${elements[3]}<del class="product-old-price">$999.00$</del></h4>
+														<p class="product-category" name="product-category">${elements[3]}</p>
+														<h3 class="product-name" name="product-name"><a href="product?action=detail&amp;productCode=${elements[3]}">${elements[0]}</a></h3>
+														<h4 class="product-price" name="product-price">$${elements[2]}<del class="product-old-price">$999.00$</del></h4>
 													</div>
 													<div class="add-to-cart">
 														<button type="submit" class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> Add to cart </button>
