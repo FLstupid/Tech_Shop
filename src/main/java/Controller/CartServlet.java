@@ -69,12 +69,21 @@ public class CartServlet extends HttpServlet {
                     item.setAmount(amount);
                     CartItemIO.update(item);
                 }
+                url = "/cart.jsp";
+                getServletContext()
+                        .getRequestDispatcher(url)
+                        .forward(request, response);
+                break;
             }
             case "remove": {
                 long itemId = Long.parseLong(request.getParameter("id"));
                 long productCode = Long.parseLong(request.getParameter("productCode"));
                 CartItem item = (CartItem) CartItemIO.selectItem(productCode, itemId);
                 CartItemIO.delete(item);
+                url = "/cart.jsp";
+                getServletContext()
+                        .getRequestDispatcher(url)
+                        .forward(request, response);
                 break;
             }
             case "add": {
@@ -82,6 +91,10 @@ public class CartServlet extends HttpServlet {
                 long productCode = Long.parseLong(request.getParameter("productCode"));
                 CartItem item = (CartItem) CartItemIO.selectItem(productCode, itemId);
                 CartItemIO.insert(item);
+                url = "/cart.jsp";
+                getServletContext()
+                        .getRequestDispatcher(url)
+                        .forward(request, response);
             }
         }
 

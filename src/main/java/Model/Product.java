@@ -30,9 +30,6 @@ public class Product {
     @Column(name = "content")
     private String content;
 
-    public Product(String productName, String productimage, Double productprice, String productcontent, String productnsx1, Category category) {
-    }
-
     public Product() {
 
     }
