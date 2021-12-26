@@ -120,7 +120,7 @@
         <thead class="thead-dark">
         <tr>
             <th><h3 style="text-align: center">Cart ID</h3></th>
-            <th><h3 style="text-align: center">User ID</h3></th>
+            <th><h3 style="text-align: center">User Name</h3></th>
             <th><h3 style="text-align: center">Price</h3></th>
 
 
@@ -135,14 +135,14 @@
 
         <c:forEach var="bill" items="${ListCart}">
             <tr>
-                <td>${bill.getId()}</td>
-                <td>${bill.getUserId()}</td>
-                <td>${bill.getPrice()}</td>
+                <td style="text-align: center">${bill.getId()}</td>
+                <td style="text-align: center">${bill.getUserId().getUserName()}</td>
+                <td style="text-align: center">${bill.getPrice()}</td>
 
 
                 <td>
-                    <form action="admin-bill" method="post">
-                        <input type="hidden" name="id" value="${bill.getId()}">
+                    <form action="" method="post">
+                        <input type="hidden" name="id" value="${bill.getUserId().getId()}">
                         <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">
                     </form>
                 </td>

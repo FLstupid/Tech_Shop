@@ -9,22 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AdminListBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AdminListUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AdminUser.jsp" afterDir="false" />
+    <list default="true" id="238f11d6-9441-4208-9080-52593ee58562" name="Changes" comment="test3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Adminitem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/AdminCartItem.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2021_10_00_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_18_2021_10_00_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartItemIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/AdminBill.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AdminBill.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resetpassworddetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AdminUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AdminUser.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -245,7 +239,11 @@
       <workItem from="1639818156934" duration="14000" />
       <workItem from="1639818624084" duration="541000" />
       <workItem from="1639819179701" duration="338000" />
-      <workItem from="1639874152400" duration="18692000" />
+      <workItem from="1639874152400" duration="19980000" />
+      <workItem from="1639911945382" duration="34000" />
+      <workItem from="1640420155651" duration="8930000" />
+      <workItem from="1640436519509" duration="10168000" />
+      <workItem from="1640477293472" duration="4088000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1639819257378</created>
@@ -282,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639828601498</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test2">
+      <created>1639899000440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639899000440</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test3">
+      <created>1639899049071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639899049071</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,18 +389,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
     <MESSAGE value="database" />
-    <option name="LAST_COMMIT_MESSAGE" value="database" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controller/HomeServlet.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="test2" />
+    <MESSAGE value="test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tech_Shop$Tomcat_9_0_52.ic" NAME="Tomcat 9.0.52 Coverage Results" MODIFIED="1639796940775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

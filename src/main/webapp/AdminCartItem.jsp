@@ -115,53 +115,31 @@
 
 <section id="list"class="list">
     <div class="container">
-        <h2>List User</h2>
-        <table class="table table-bordered table-striped table-responsive-stack"  id="tableOne">
+        <h2>List Cart</h2>
+        <table class="table table-bordered table-striped table-responsive-stack"  >
             <thead class="thead-dark">
             <tr>
-                <th><h3 style="text-align: center">Customer ID</h3></th>
-                <th><h3 style="text-align: center">Customer Name</h3></th>
-                <th><h3 style="text-align: center">Gender</h3></th>
-                <th><h3 style="text-align: center">Birth</h3></th>
-                <th><h3 style="text-align: center">Mail</h3></th>
-                <th><h3 style="text-align: center">Phone</h3></th>
-                <th><h3 style="text-align: center">Address</h3></th>
+                <th><h3 style="text-align: center">Item ID</h3></th>
+                <th><h3 style="text-align: center">Cart ID</h3></th>
+                <th><h3 style="text-align: center">Product ID</h3></th>
+                <th><h3 style="text-align: center">Amount</h3></th>
+
+
+
             </tr>
             </thead>
             <tbody>
 
-            <c:forEach var="bill" items="${ListUseridName}">
+            <c:forEach var="cartitem" items="${listCartItem}">
                 <tr>
-                    <td style="text-align: center">${bill.getId()}</td>
-                    <td style="text-align: center">${bill.getUserName()}</td>
-                    <td style="text-align: center">${bill.getGender()}</td>
-                    <td style="text-align: center">${bill.getBirth()}</td>
-                    <td style="text-align: center">${bill.getEmail()}</td>
-                    <td style="text-align: center">${bill.getPhone()}</td>
-                    <td style="text-align: center">${bill.getAddress()}</td>
-
-<%--                    <td>--%>
-<%--                        <form action="" method="post">--%>
-<%--                            <input type="hidden" name="id" value="${bill.getId()}">--%>
-<%--                            <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">--%>
-<%--                        </form>--%>
-<%--                    </td>--%>
+                    <td style="text-align: center">${cartitem.getId()}</td>
+                    <td style="text-align: center">${cartitem.getCartId()}</td>
+                    <td style="text-align: center">${cartitem.getProductId()}</td>
+                    <td style="text-align: center">${cartitem.getAmount()}</td>
                 </tr>
             </c:forEach>
+            <a class="btn-info" href="Adminitem?action=confirm&id=${listCartItem.getCartId()}">Confirm</a>
 
-            <%--        <tr>--%>
-            <%--            <td>dfhdf</td>--%>
-            <%--            <td>dfhdh</td>--%>
-            <%--            <td>dfhfd</td>--%>
-            <%--            <td>hdfhdfh</td>--%>
-            <%--            <td>dfhfdhfdh</td>--%>
-            <%--            <td>--%>
-            <%--                <form action="admin-bill" method="post">--%>
-            <%--&lt;%&ndash;                    <input type="hidden" name="id" value="${bill.getId()}">&ndash;%&gt;--%>
-            <%--                    <input style="border: 0px; background-color: rgba(0, 0, 0, 0);" type="submit" value="Details">--%>
-            <%--                </form>--%>
-            <%--            </td>--%>
-            <%--        </tr>--%>
 
             </tbody>
         </table>

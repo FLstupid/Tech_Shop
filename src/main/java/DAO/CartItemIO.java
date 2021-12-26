@@ -2,12 +2,14 @@ package DAO;
 
 import Model.CartItem;
 
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import java.util.List;
-
+import javax.persistence.TypedQuery;
+import java.util.ArrayList;
 public class CartItemIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
     public static void insert(CartItem cartItem)
@@ -130,5 +132,28 @@ public class CartItemIO {
             }
             em.close();
         }
+    }
+    public static ArrayList<CartItem> getListCartItemByCartId(String id) {
+        EntityManager em = emf.createEntityManager();
+        TypedQuery<CartItem> cartItemTypedQuery;
+        ArrayList<CartItem> results = null;
+        System.out.println("truoc khi vao try");
+        try {
+
+            long idf = Long.parseLong(id);
+            cartItemTypedQuery = em.createQuery("select b from CartItem b  where b.cartId.id = ?1", CartItem.class);
+            cartItemTypedQuery.setParameter(1,idf);
+            System.out.println("Da chay duoc");
+            System.out.println(id);
+            results = (ArrayList<CartItem>) cartItemTypedQuery.getResultList();
+            System.out.println("reshear"+results);
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+
+        } finally {
+            em.close();
+        }
+        return results;
     }
 }
