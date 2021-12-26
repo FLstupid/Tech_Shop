@@ -10,7 +10,7 @@ public class CartIO {
     public static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("shoping");
 
 
-    public void insert (Cart cart)
+    public static void insert(Cart cart)
     { EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         try {

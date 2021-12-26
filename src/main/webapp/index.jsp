@@ -100,7 +100,7 @@
                                                                 
 								<!-- Cart -->
 								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="${pageContext.request.contextPath}/checkout">
+									<a href="${pageContext.request.contextPath}/cart">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Your Cart</span>
 										<% session = request.getSession(false);
@@ -169,7 +169,7 @@
 							</ul>
 							<h2 class="text-uppercase">hot deal this week</h2>
 							<p>New Collection Up to 50% OFF</p>
-							<a class="primary-btn cta-btn" href="${pageContext.request.contextPath}/index">Buy now</a>
+							<a class="primary-btn cta-btn" href="${pageContext.request.contextPath}/store">Buy now</a>
 						</div>
 					</div>
 				</div>

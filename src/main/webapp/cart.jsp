@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -112,23 +113,19 @@
 				<table class="table table-bordered table-striped table-responsive-stack"  >
 					<thead class="thead-dark">
 					<tr>
-						<th><h3 style="text-align: center">Item ID</h3></th>
-						<th><h3 style="text-align: center">Cart ID</h3></th>
-						<th><h3 style="text-align: center">Product ID</h3></th>
+						<th><h3 style="text-align: center">Product</h3></th>
 						<th><h3 style="text-align: center">Amount</h3></th>
 					</tr>
 					</thead>
 					<tbody>
-					<%--@elvariable id="listCartItem" type="java.util.List"--%>
-					<c:forEach var="cartitem" items="${listCartItem}">
+					<%--@elvariable id="listcart" type="java.util.List"--%>
+					<c:forEach var="cartitem" items="${listcart}">
 						<tr>
-							<td style="text-align: center">${cartitem.getId()}</td>
-							<td style="text-align: center">${cartitem.getCartId()}</td>
-							<td style="text-align: center">${cartitem.getProductId()}</td>
-							<td style="text-align: center">${cartitem.getAmount()}</td>
+							<td style="text-align: center">${cartitem[2].getProductName()}</td>
+							<td style="text-align: center">${cartitem[3]}</td>
 						</tr>
 					</c:forEach>
-					<a class="btn-info" href="Adminitem?action=confirm&id=${listCartItem.getCartId()}">Confirm</a>
+					<a class="btn-info" href="cart?action=confirm}">Mua Hang</a>
 					</tbody>
 				</table>
 			</div>

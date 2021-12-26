@@ -48,9 +48,10 @@ public class CartServlet extends HttpServlet {
 
                 if (cart == null) {
                     cart = new Cart(acc);
-                    listcart = CartItemIO.selectItems(cart.getId());
+                    CartIO.insert(cart);
+                    listcart = CartItemIO.getListCartItemByCartId(cart.getId().toString());
                 }else {
-                    listcart = CartItemIO.selectItems(cart.getId());
+                    listcart = CartItemIO.getListCartItemByCartId(cart.getId().toString());
                 }
                 session.setAttribute("listcart", listcart);
                 url = "/cart.jsp";
