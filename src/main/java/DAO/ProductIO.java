@@ -23,7 +23,28 @@ public class ProductIO {
         }
     }
 
-    public void update (Product product)
+    public static Product selectProductByid(long id) {
+        EntityManager em = emf.createEntityManager();
+        TypedQuery<Product>  acc;
+        try {
+
+            acc = em.createQuery("SELECT p FROM Product p where p.id = :id"
+                    ,Product.class);
+            acc.setParameter("id",id);
+
+
+            return acc.getSingleResult();
+
+        } catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            return null;
+        }finally {
+            em.close();
+        }
+    }
+
+    public static void update(Product product)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();

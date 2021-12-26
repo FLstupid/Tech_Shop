@@ -109,7 +109,7 @@
 		<!-- /HEADER -->
 		<section id="list" class="list">
 			<div class="container">
-				<h2>List Cart</h2>
+				<h2>List Item</h2>
 				<table class="table table-bordered table-striped table-responsive-stack"  >
 					<thead class="thead-dark">
 					<tr>
@@ -121,35 +121,31 @@
 					<%--@elvariable id="listcart" type="java.util.List"--%>
 					<c:forEach var="cartitem" items="${listcart}">
 						<tr>
-							<td style="text-align: center">${cartitem[2].getProductName()}</td>
+							<td style="text-align: center">${cartitem[2]}</td>
 							<td style="text-align: center">${cartitem[3]}</td>
 						</tr>
 					</c:forEach>
-					<a class="btn-info" href="cart?action=confirm}">Mua Hang</a>
 					</tbody>
 				</table>
 			</div>
-			<!-- /.container -->
-		</section>
-		<div class="row">
 			<div class="col1-md-6 cart__foot">
 				<a href="${pageContext.request.contextPath}/cart">
-					<button type="button" class="btn btn-kx1">Cập nhật giỏ hàng</button>
+					<button type="button" class="btn">Update</button>
 				</a>
 			</div>
 			<div class="col1-md-6 cart__foot2">
 				<a href="${pageContext.request.contextPath}/index">
-					<button type="button" class="btn btn-kx1">Tiếp tục mua sắm</button>
+					<button type="button" class="btn">Turn Back to Store</button>
 				</a>
 			</div>
 			<div class="col1-md-3 cart__foot" style="margin-left: 440px;">
-				<button type="button" class="btn btn-kx1">
-					<a class="btn-kx2 non-underline-link"
-					   href="${pageContext.request.contextPath}/">Mua
-						hàng</a>
+				<button type="button" class="btn">
+					<a class="btn-info" href="cart?action=confirm}">Mua Hang</a>
 				</button>
 			</div>
-		</div>
+			<!-- /.container -->
+		</section>
+
 
 		<!-- FOOTER -->
 		<footer id="footer">

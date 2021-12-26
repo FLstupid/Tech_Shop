@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -426,7 +427,8 @@
 							<!-- product -->
 							<div class="col-md-4 col-xs-6">
 								<div class="product">
-									<c:forEach items="${listproduct}" var="elements" begin="1" end="4">
+									<%--@elvariable id="listproduct" type="java.util.List"--%>
+									<c:forEach items="${listproduct}" var="elements">
 										<!-- product -->
 										<form action="cart" method="post">
 											<input type="hidden" value="add">
@@ -443,9 +445,13 @@
 													<h3 class="product-name" name="product-name"><a href="product?action=detail&amp;productCode=${elements[3]}">${elements[0]}</a></h3>
 													<h4 class="product-price" name="product-price">$${elements[2]}<del class="product-old-price">$999.00$</del></h4>
 												</div>
-												<div class="add-to-cart">
-													<button type="submit" class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> Add to cart </button>
-												</div>
+												<form action="product?action=add" method="post">
+													<input type="hidden" value="${elements[3]}" name="productCode">
+													<div class="add-to-cart">
+														<button type="submit" class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> Add to cart </button>
+													</div>
+												</form>
+												>
 											</div>
 											<!-- /product -->
 										</form>
@@ -453,7 +459,7 @@
 								</div>
 							</div>
 							<!-- /product -->
-
+						</div>
 						<!-- store bottom filter -->
 						<div class="store-filter clearfix">
 							<span class="store-qty">Showing 20-100 products</span>

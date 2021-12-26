@@ -24,7 +24,7 @@ public class CartIO {
             em.close();
         }
     }
-    public void update (Cart cart)
+    public static void update(Cart cart)
     {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
