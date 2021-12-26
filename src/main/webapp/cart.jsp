@@ -106,59 +106,34 @@
 			<!-- /MAIN HEADER -->
 		</header>
 		<!-- /HEADER -->
-		<form method="post" action="cart">
-			<%--@elvariable id="listcart" type="java.util.List" --%>
-			<c:set var="listcart" scope="page" value="${listcart}" />
-			<c:if test="${empty listcart}">
-				<div class="nocartyet">
-					<p style="font-size: 15px; line-height: 1.5; margin-left: 505px;">Chưa có sản phẩm nào</p>
-					<a href="${pageContext.request.contextPath}/store"
-					   style="font-family: Roboto, Helvetica, Arial, sans-serif;line-height: 1.5;text-size-adjust: 100%;text-align: center;box-sizing: border-box;text-decoration: none;width: 190px;border-radius: 4px;color: rgb(74, 74, 74);font-size: 14px;background-color: rgb(253, 216, 53);display: block;margin-left: 480px;">Tiếp
-						tục mua sắm</a>
-				</div>
-			</c:if>
-			<c:if test="${not empty listcart}">
-				<div class="row">
-					<table style="width: 100%;" class="cart">
-						<thead>
+		<section id="list" class="list">
+			<div class="container">
+				<h2>List Cart</h2>
+				<table class="table table-bordered table-striped table-responsive-stack"  >
+					<thead class="thead-dark">
+					<tr>
+						<th><h3 style="text-align: center">Item ID</h3></th>
+						<th><h3 style="text-align: center">Cart ID</h3></th>
+						<th><h3 style="text-align: center">Product ID</h3></th>
+						<th><h3 style="text-align: center">Amount</h3></th>
+					</tr>
+					</thead>
+					<tbody>
+					<%--@elvariable id="listCartItem" type="java.util.List"--%>
+					<c:forEach var="cartitem" items="${listCartItem}">
 						<tr>
-							<th>Số Lượng</th>
-							<th>Mã sản phẩm</th>
-							<th>Mã người dùng</th>
-							<th>Tên sản phẩm</th>
-							<th>Giá</th>
-							<th>Ưu đãi</th>
-							<th></th>
+							<td style="text-align: center">${cartitem.getId()}</td>
+							<td style="text-align: center">${cartitem.getCartId()}</td>
+							<td style="text-align: center">${cartitem.getProductId()}</td>
+							<td style="text-align: center">${cartitem.getAmount()}</td>
 						</tr>
-						</thead>
-							<%--@elvariable id="listcart" type="java.util.List" --%>
-						<c:forEach items="${listcart}" var="element">
-							<tbody>
-							<tr>
-								<td>
-									<form action="cart" method="post">
-										<input type="hidden" name="action" value="update">
-										<input type="number" value="${element[0]}" name="amount">
-										<input type="hidden" value="${element[7]}" name="id">
-										<input type="hidden" value="${element[8]}" name="productCode">
-										<input type="submit" value="update"
-											   style="width: 60px; font-size:15px; margin-left:10px">
-									</form>
-								</td>
-								<td>${element[1]}</td>
-								<td>${element[2]}</td>
-								<td>${element[3]}</td>
-								<td> ${element[4]} VND</td>
-								<td>${element[5]}</td>
-								<td>
-									<a href="cart?action=remove&amp;id=${element[7]}&amp;productCode=${element[8]}"
-									   target="myiframe">Xóa
-									</a>
-								</td>
-							</tr>
-							</tbody>
-						</c:forEach>
-					</table>
+					</c:forEach>
+					<a class="btn-info" href="Adminitem?action=confirm&id=${listCartItem.getCartId()}">Confirm</a>
+					</tbody>
+				</table>
+			</div>
+			<!-- /.container -->
+		</section>
 					<div class="row">
 						<div class="col1-md-6 cart__foot">
 							<a href="${pageContext.request.contextPath}/cart">

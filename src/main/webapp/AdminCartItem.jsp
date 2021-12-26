@@ -46,7 +46,7 @@
             </ul>
             <ul class="header-links pull-right">
 
-                <li><a href="Login.jsp"><i class="fa fa-user-o"></i> Admin</a></li>
+                <li><a href="${pageContext.request.contextPath}/login"><i class="fa fa-user-o"></i> Admin</a></li>
             </ul>
         </div>
     </div>
@@ -113,7 +113,7 @@
 </header>
 <!-- /HEADER -->
 
-<section id="list"class="list">
+<section id="list" class="list">
     <div class="container">
         <h2>List Cart</h2>
         <table class="table table-bordered table-striped table-responsive-stack"  >
@@ -130,6 +130,7 @@
             </thead>
             <tbody>
 
+            <%--@elvariable id="listCartItem" type="java.util.List"--%>
             <c:forEach var="cartitem" items="${listCartItem}">
                 <tr>
                     <td style="text-align: center">${cartitem.getId()}</td>
