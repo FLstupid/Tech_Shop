@@ -1,5 +1,7 @@
 package Controller;
+
 import DAO.ProductIO;
+import Model.Product;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,13 +12,13 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "index", value="/index")
-public class HomeServlet extends HttpServlet {
+@WebServlet(name = "store", value = "/store")
+public class StoreServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String url = "/index.jsp";
         String action = request.getParameter("action");
+        String url="/store.jsp";
         if(action == null){
             action = "index";
         }
@@ -38,9 +40,6 @@ public class HomeServlet extends HttpServlet {
 
         if (listproduct != null) {
             session.setAttribute("listproduct", listproduct);
-        }
-        if (action.equals("store")) {
-            url = "/store.jsp";
         }
 
         getServletContext()

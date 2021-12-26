@@ -19,6 +19,13 @@ public class Cart {
     @Column(name = "price")
     private Double price;
 
+    public Cart(User acc) {
+        this.userId = acc;
+    }
+
+    public Cart() {
+    }
+
     public Double getPrice() {
         return price;
     }
