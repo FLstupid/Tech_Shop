@@ -134,28 +134,25 @@
 			</div>
 			<!-- /.container -->
 		</section>
-					<div class="row">
-						<div class="col1-md-6 cart__foot">
-							<a href="${pageContext.request.contextPath}/cart">
-								<button type="button" class="btn btn-kx1">Cập nhật giỏ hàng</button>
-							</a>
-						</div>
-						<div class="col1-md-6 cart__foot2">
-							<a href="${pageContext.request.contextPath}/index">
-								<button type="button" class="btn btn-kx1">Tiếp tục mua sắm</button>
-							</a>
-						</div>
-						<div class="col1-md-3 cart__foot" style="margin-left: 440px;">
-							<button type="button" class="btn btn-kx1">
-								<a class="btn-kx2 non-underline-link"
-								   href="${pageContext.request.contextPath}/">Mua
-									hàng</a>
-							</button>
-						</div>
-					</div>
-				</div>
-			</c:if>
-		</form>
+		<div class="row">
+			<div class="col1-md-6 cart__foot">
+				<a href="${pageContext.request.contextPath}/cart">
+					<button type="button" class="btn btn-kx1">Cập nhật giỏ hàng</button>
+				</a>
+			</div>
+			<div class="col1-md-6 cart__foot2">
+				<a href="${pageContext.request.contextPath}/index">
+					<button type="button" class="btn btn-kx1">Tiếp tục mua sắm</button>
+				</a>
+			</div>
+			<div class="col1-md-3 cart__foot" style="margin-left: 440px;">
+				<button type="button" class="btn btn-kx1">
+					<a class="btn-kx2 non-underline-link"
+					   href="${pageContext.request.contextPath}/">Mua
+						hàng</a>
+				</button>
+			</div>
+		</div>
 
 		<!-- FOOTER -->
 		<footer id="footer">
